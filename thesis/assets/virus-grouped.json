@@ -1,0 +1,1660 @@
+{
+    "SARS": {
+        "Felidae": {
+            "genus": [
+                {
+                    "genus-name": "Acinonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Felis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leptailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lynx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Otocolobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Panthera",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Prionailurus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Puma",
+                    "direct": false
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genus-name": "Aonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Eira",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Galictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lutra",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mellivora",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mustela",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pteronura",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": true
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genus-name": "Civettictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Cryptoprocta",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Fossa",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Paradoxurus",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "H5N1": {
+        "Felidae": {
+            "genus": [
+                {
+                    "genus-name": "Acinonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Felis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leptailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lynx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Otocolobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Panthera",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Prionailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Puma",
+                    "direct": false
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genus-name": "Aonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Eira",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Galictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lutra",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mellivora",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mustela",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pteronura",
+                    "direct": false
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genus-name": "Aotus",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Cercopithecus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Chlorocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Colobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lophocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Macaca",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Papio",
+                    "direct": false
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genus-name": "Civettictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Cryptoprocta",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Fossa",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Paradoxurus",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cerconpithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Pygathrix",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercophithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Trachypithecus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Rift Valley Fever Virus": {
+        "Felidae": {
+            "genus": [
+                {
+                    "genus-name": "Acinonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Felis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leptailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lynx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Otocolobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Panthera",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Prionailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Puma",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": false
+                }
+            ]
+        },
+        "Bovidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalophus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Damaliscus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Gazella",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Hippotragus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Ovis",
+                    "direct": true
+                }
+            ]
+        },
+        "Rhinocerotidae": {
+            "genus": [
+                {
+                    "genus-name": "Ceratotherium ",
+                    "direct": true
+                }
+            ]
+        },
+        "Equidae": {
+            "genus": [
+                {
+                    "genus-name": "Equus",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Crimean Congo Hemorrhagic Fever Virus": {
+        "Felidae": {
+            "genus": [
+                {
+                    "genus-name": "Acinonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Felis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leptailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lynx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Otocolobus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Panthera",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Prionailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Puma",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": true
+                }
+            ]
+        },
+        "Bovidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalophus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Damaliscus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Gazella",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Hippotragus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Ovis",
+                    "direct": true
+                }
+            ]
+        },
+        "Rhinocerotidae": {
+            "genus": [
+                {
+                    "genus-name": "Ceratotherium ",
+                    "direct": true
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genus-name": "Civettictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Cryptoprocta",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Fossa",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Paradoxurus",
+                    "direct": false
+                }
+            ]
+        },
+        "Elephantidae": {
+            "genus": [
+                {
+                    "genus-name": "Elephas",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Loxodonta",
+                    "direct": true
+                }
+            ]
+        },
+        "Equidae": {
+            "genus": [
+                {
+                    "genus-name": "Equus",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Rabies Virus": {
+        "Felidae": {
+            "genus": [
+                {
+                    "genus-name": "Acinonyx",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Caracal",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Felis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leptailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lynx",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Otocolobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Panthera",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Prionailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Puma",
+                    "direct": true
+                }
+            ]
+        },
+        "Ursidae": {
+            "genus": [
+                {
+                    "genus-name": "Ailuropoda ",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Melursus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Ursus",
+                    "direct": true
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genus-name": "Aonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Eira",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Galictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mellivora",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Mustela",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pteronura",
+                    "direct": false
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genus-name": "Aotus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cebidae": {
+            "genus": [
+                {
+                    "genus-name": "Callithrix",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Leontopithecus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Saguinus",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": true
+                }
+            ]
+        },
+        "Bovidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalophus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Damaliscus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Gazella",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Hippotragus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Ovis",
+                    "direct": true
+                }
+            ]
+        },
+        "Delphinidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalorhynchus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Cercopithecus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Chlorocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Colobus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Lophocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Macaca",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Papio",
+                    "direct": false
+                }
+            ]
+        },
+        "Cervidae": {
+            "genus": [
+                {
+                    "genus-name": "Cervus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Odocoileus",
+                    "direct": true
+                }
+            ]
+        },
+        "Dasypodidae": {
+            "genus": [
+                {
+                    "genus-name": "Chaetophractus",
+                    "direct": false
+                }
+            ]
+        },
+        "Chinchillidae": {
+            "genus": [
+                {
+                    "genus-name": "Chinchilla",
+                    "direct": true
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genus-name": "Civettictis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cryptoprocta",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Fossa",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Paradoxurus",
+                    "direct": false
+                }
+            ]
+        },
+        "Elephantidae": {
+            "genus": [
+                {
+                    "genus-name": "Elephas",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Loxodonta",
+                    "direct": true
+                }
+            ]
+        },
+        "Equidae": {
+            "genus": [
+                {
+                    "genus-name": "Equus",
+                    "direct": true
+                }
+            ]
+        },
+        "Galagidae": {
+            "genus": [
+                {
+                    "genus-name": "Galago",
+                    "direct": true
+                }
+            ]
+        },
+        "Herpestidae": {
+            "genus": [
+                {
+                    "genus-name": "Herpestes",
+                    "direct": true
+                }
+            ]
+        },
+        "Hyaenidae": {
+            "genus": [
+                {
+                    "genus-name": "Hyaena",
+                    "direct": true
+                }
+            ]
+        },
+        "Phocidae": {
+            "genus": [
+                {
+                    "genus-name": "Mirounga",
+                    "direct": false
+                }
+            ]
+        },
+        "Procyonidae": {
+            "genus": [
+                {
+                    "genus-name": "Nasua",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Potos",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": true
+                }
+            ]
+        },
+        "Cerconpithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Pygathrix",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercophithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Trachypithecus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Nipha Virus": {
+        "Felidae": {
+            "genus": [
+                {
+                    "genus-name": "Acinonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Felis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leptailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lynx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Otocolobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Panthera",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Prionailurus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Puma",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": true
+                }
+            ]
+        }
+    },
+    "Yellow Fever Virus": {
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genus-name": "Aonyx",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Eira",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Galictis",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lutra",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mellivora",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Mustela",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pteronura",
+                    "direct": false
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genus-name": "Aotus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cebidae": {
+            "genus": [
+                {
+                    "genus-name": "Callithrix",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cebus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Leontopithecus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Cercopithecus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Chlorocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Colobus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Lophocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Macaca",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Papio",
+                    "direct": false
+                }
+            ]
+        },
+        "Megalonychidae": {
+            "genus": [
+                {
+                    "genus-name": "Choloepus",
+                    "direct": true
+                }
+            ]
+        },
+        "Dasyproctidae": {
+            "genus": [
+                {
+                    "genus-name": "Dasyprocta",
+                    "direct": true
+                }
+            ]
+        },
+        "Galagidae": {
+            "genus": [
+                {
+                    "genus-name": "Galago",
+                    "direct": true
+                }
+            ]
+        },
+        "Myrmecophagidae": {
+            "genus": [
+                {
+                    "genus-name": "Myrmecophaga",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Tamandua",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Cerconpithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Pygathrix",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercophithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Trachypithecus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Marburg Virus": {
+        "Aotidae": {
+            "genus": [
+                {
+                    "genus-name": "Aotus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Cercopithecus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Chlorocebus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Colobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lophocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Macaca",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Papio",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cerconpithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Pygathrix",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercophithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Trachypithecus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Ebola Virus": {
+        "Aotidae": {
+            "genus": [
+                {
+                    "genus-name": "Aotus",
+                    "direct": false
+                }
+            ]
+        },
+        "Bovidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalophus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Damaliscus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Gazella",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Hippotragus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Ovis",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Cercopithecus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Chlorocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Colobus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Lophocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Macaca",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Papio",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cerconpithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Pygathrix",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercophithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Trachypithecus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Cercopithecine Herpes Virus": {
+        "Aotidae": {
+            "genus": [
+                {
+                    "genus-name": "Aotus",
+                    "direct": false
+                }
+            ]
+        },
+        "Cebidae": {
+            "genus": [
+                {
+                    "genus-name": "Cebus",
+                    "direct": true
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Cercopithecus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Chlorocebus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Colobus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Lophocebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Macaca",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Papio",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Cerconpithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Pygathrix",
+                    "direct": false
+                }
+            ]
+        },
+        "Cercophithecidae": {
+            "genus": [
+                {
+                    "genus-name": "Trachypithecus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Lymphocytic Choriomeningitis Virus": {
+        "Cebidae": {
+            "genus": [
+                {
+                    "genus-name": "Callithrix",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cebus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Leontopithecus",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Saguinus",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Venezuelan Equine Encephalitis Virus": {
+        "Canidae": {
+            "genus": [
+                {
+                    "genus-name": "Canis",
+                    "direct": true
+                },
+                {
+                    "genus-name": "Cerdocyon",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Speothos",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Vulpes",
+                    "direct": false
+                }
+            ]
+        },
+        "Bovidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalophus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Damaliscus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Gazella",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Ovis",
+                    "direct": false
+                }
+            ]
+        },
+        "Delphinidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalorhynchus",
+                    "direct": false
+                }
+            ]
+        },
+        "Equidae": {
+            "genus": [
+                {
+                    "genus-name": "Equus",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Tick-Borne Encephalitis Virus": {
+        "Bovidae": {
+            "genus": [
+                {
+                    "genus-name": "Cephalophus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Damaliscus",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Gazella",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Ovis",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genus-name": "Pteropus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "HCPS": {
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "HFRS": {
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        },
+        "Suidae": {
+            "genus": [
+                {
+                    "genus-name": "Potamochoerus",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "SouthAmericanHemoorhagicFeverArenaviruses": {
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Lassa Fever Virus": {
+        "Hominidae": {
+            "genus": [
+                {
+                    "genus-name": "Pan",
+                    "direct": false
+                },
+                {
+                    "genus-name": "Pongo",
+                    "direct": false
+                }
+            ]
+        }
+    }
+}

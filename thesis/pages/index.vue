@@ -1,21 +1,20 @@
 <template>
-  <div>
-    <!-- <Nav /> -->
+  <div class="model">
+    <Intro />
     <!-- <Header>Demo</Header> -->
     <Virus3D />
-
   </div>
 </template>
 
 <script>
-// import Nav from "~/components/Nav.vue";
+import Intro from "~/components/Intro.vue";
 // import Header from "~/components/Header.vue";
-import Virus3D from "~/components/Virus3D.vue"
+import Virus3D from "~/components/Virus3D.vue";
 // import BarChart from '~/components/BarChart.vue'
 
 export default {
   components: {
-    // Nav,
+    Intro,
     // Header,
     Virus3D
     // BarChart
@@ -24,4 +23,5 @@ export default {
 </script>
 
 <style>
+
 </style>

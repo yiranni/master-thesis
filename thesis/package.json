@@ -13,8 +13,10 @@
   "dependencies": {
     "d3": "^5.15.1",
     "element-ui": "^2.4.11",
+    "jquery": "^3.5.0",
     "nuxt": "^2.0.0",
-    "three": "^0.115.0"
+    "three": "^0.115.0",
+    "three-orbit-controls": "^82.1.0"
   },
   "devDependencies": {}
 }
