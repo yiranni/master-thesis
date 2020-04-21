@@ -13,6 +13,7 @@ import {
   PerspectiveCamera,
   WebGLRenderer,
   IcosahedronBufferGeometry,
+  CylinderGeometry,
   MeshPhongMaterial,
   LineBasicMaterial,
   Group,
@@ -58,6 +59,34 @@ export default {
   methods: {
     setup() {
       const canvas = this.$refs.virus;
+      const nodeCorr = [
+        [1, 0, 0],
+        [0.31, -0.95, 0],
+        [0.31, 0.95, 0],
+        [-0.81, 0.59, 0],
+        [-0.81, 0.59, 0],
+        [0.92, 0, 0.4],
+        [0.92, 0, -0.4],
+        [0.29, -0.86, 0.4],
+        [0.29, -0.86, -0.4],
+        [0.29, 0.86, 0.4],
+        [0.29, 0.86, -0.4],
+        [-0.75, -0.56, 0.4],
+        [-0.75, -0.56, -0.4],
+        [-0.75, 0.56, -0.4],
+        [-0.75, 0.56, 0.4],
+        [0.71, 0, 0.7],
+        [0.71, 0, -0.7],
+        [0.22, 0.6745, 0.7],
+        [0.22, 0.6745, -0.7],
+        [0.22, -0.6745, 0.7],
+        [0.22, -0.6745, -0.7],
+        [-0.57, 0.4189, 0.7],
+        [-0.57, 0.4189, -0.7],
+        [-0.57, -0.4189, 0.7],
+        [-0.57, -0.4189, -0.7]
+      ];
+      console.log(nodeCorr);
       let objects = [];
       this.scene.background = new Color(0x0a1728);
       this.cam = new PerspectiveCamera(
@@ -120,7 +149,7 @@ export default {
         this.line = new LineSegments(this.geometry, this.lineMaterial);
         this.group.add(this.mesh);
         this.group.add(this.line);
-        this.scene.add(this.group);
+
         Object.size = function(obj) {
           var size = 0,
             key;
@@ -130,7 +159,27 @@ export default {
           return size;
         };
         let size = Object.size(VirusData[v]);
-        // console.log(size);
+        let thisX = this.group.position.x;
+        let thisY = this.group.position.y;
+        let thisZ = this.group.position.z;
+        // this.cylinderGeo = new CylinderGeometry(0.2, 0.2, 1, 16);
+        // this.cylinder = new Mesh(this.cylinderGeo, this.meshMaterial);
+        // this.cylinder.position.x = nodeCorr[0][0] + thisX;
+        // this.cylinder.position.y = nodeCorr[0][1] + thisY;
+        // this.cylinder.position.z = nodeCorr[0][2] + thisZ;
+        // this.cylinder.lookAt(thisX, thisY, thisZ)
+        for(let i = 0; i < size; i++) {
+            this.cylinderGeo = new CylinderGeometry(0.2, 0.2, 2, 16);
+            this.cylinder = new Mesh(this.cylinderGeo, this.meshMaterial);
+            this.cylinder.position.x = nodeCorr[i][0]+ thisX;
+            this.cylinder.position.y = nodeCorr[i][1] + thisY;
+            this.cylinder.position.z = nodeCorr[i][2] + thisZ;
+            this.cylinder.lookAt(thisX, thisY, thisZ)
+             this.scene.add(this.cylinder)
+        }
+        // this.group.add(this.cylinder);
+       
+        this.scene.add(this.group);
       });
 
       function getRandomInt(min, max) {
@@ -177,20 +226,20 @@ export default {
         }
       };
 
-    //   this.onMouseOver = event => {
-    //     this.mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-    //     this.mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-    //     this.raycaster.setFromCamera(this.mouse, this.cam);
-    //     this.intersects = this.raycaster.intersectObjects(objects, true);
-    //     if (this.intersects.length > 0) {
-    //         console.log(this.intersects[0].object.parent.children[0])
-    //     //   this.intersects[0].object.parent.children[0].material.color = new Color(highlightcolor)
-    //     }
-    //   };
+      //   this.onMouseOver = event => {
+      //     this.mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+      //     this.mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+      //     this.raycaster.setFromCamera(this.mouse, this.cam);
+      //     this.intersects = this.raycaster.intersectObjects(objects, true);
+      //     if (this.intersects.length > 0) {
+      //         console.log(this.intersects[0].object.parent.children[0])
+      //     //   this.intersects[0].object.parent.children[0].material.color = new Color(highlightcolor)
+      //     }
+      //   };
 
       window.addEventListener("mousedown", this.onMouseClick, false);
       window.addEventListener("mousemove", this.onMouseMove, false);
-    //   window.addEventListener("mouseover", this.onMouseOver, false);
+      //   window.addEventListener("mouseover", this.onMouseOver, false);
     },
 
     loop() {
