@@ -1,27 +1,31 @@
 <template>
   <div class="model">
-    <Intro />
+    <Nav />
+    <Explore />
+    <Info />
+    <!-- <Intro /> -->
     <!-- <Header>Demo</Header> -->
-    <Virus3D />
+    <!-- <Virus3D /> -->
   </div>
 </template>
 
 <script>
-import Intro from "~/components/Intro.vue";
-// import Header from "~/components/Header.vue";
-import Virus3D from "~/components/Virus3D.vue";
-// import BarChart from '~/components/BarChart.vue'
+import Nav from "~/components/Nav.vue";
+import Explore from "~/components/Explore.vue";
+import Info from "~/components/Info.vue";
 
 export default {
   components: {
-    Intro,
+    Nav,
+    Explore,
+    Info
+    // Intro,
     // Header,
-    Virus3D
+    // Virus3D
     // BarChart
   }
 };
 </script>
 
 <style>
-
 </style>
