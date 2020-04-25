@@ -8,13 +8,31 @@
 <script>
 import Explore from "~/components/Explore.vue";
 export default {
-  // props: ["virusName"],
-  // props: ['option.value'],
+  props: {
+    options: {
+      type: String
+    },
+    selected: {
+      type: String
+    }
+  },
   name: "Info",
   data() {
     return {
       virusName: "Virus"
     };
+  },
+  mounted() {
+    this.$on('updateVirus', function() {
+      console.log('get')
+    })
+  },
+  methods: {
+    // receiveVirus() {
+    //   this.$on("updateVirus", function() {
+    //     console.log("listening");
+    //   });
+    // }
   }
 };
 </script>

@@ -4,13 +4,13 @@
       <div class="title">
         <h1>
           <span>
-            <span class="select-wrapper">
+            <span class="select-wrapper" @change="updateVirus">
               <select id="virus-select" v-model="selected">
                 <option
                   v-for="option in options"
                   :key="option.value"
                   :value="{value: option.value, familyCount: option.familyCount, genusCount: option.genusCount}"
-                  v-on:click="updateVirus"
+                  
                 >{{ option.value }}</option>
               </select>
               <select id="width_tmp_select">
@@ -33,7 +33,11 @@ import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 export default {
   name: "Explore",
-  props: ['option.value'],
+  props: {
+    // options: {
+    //   type: String
+    // }
+  },
   data() {
     return {
       VirusData: VirusData,
@@ -81,10 +85,6 @@ export default {
           };
           let familyCount = Object.size(VirusData[v]);
           obj.familyCount = familyCount;
-          // Object.keys(virusData[v][f]).forEach(g => {
-          //   console.log(typeof g)
-          // })
-          // console.log(f+': ' + virusData[v][f].genus.length)
           let allGenus = virusData[v][f].genus;
           obj.genusCount += allGenus.length;
         });
@@ -94,8 +94,8 @@ export default {
       });
     },
     updateVirus() {
-      this.$emit('updateVirus', "virus changed")
-      // console.log(this.value)
+      this.$emit('updateVirus', this.selected.value)
+      // console.log(this.selected.value)
     }
   }
 };
