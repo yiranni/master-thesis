@@ -1,48 +1,59 @@
 <template>
   <div class="main">
-    <div class="section">
-      <div class="title">
-        <h1>
-          <span>
-            <span class="select-wrapper" @change="updateVirus">
-              <select id="virus-select" v-model="selected">
-                <option
-                  v-for="option in options"
-                  :key="option.value"
-                  :value="{value: option.value, familyCount: option.familyCount, genusCount: option.genusCount}"
-                  
-                >{{ option.value }}</option>
-              </select>
-              <select id="width_tmp_select">
-                <option id="width_tmp_option"></option>
-              </select>
-            </span>
-          </span> has
-          <span class="animal-count">{{selected.genusCount}}</span> potential wildlife reservoirs in
-          <span class="family-count">{{selected.familyCount}}</span> families
-        </h1>
-      </div>
+    <div class="selectVirus">
+      <h1>
+        <span>
+          <span class="select-wrapper">
+            <select id="virus-select" v-model="selected" @change="changeVirus">
+              <option
+                v-for="option in VirusOptions"
+                :key="option.value"
+                v-bind:value="{value: option.value, familyCount: option.familyCount, genusCount: option.genusCount}"
+                :virusName="option.value"
+              >{{ option.value }}</option>
+            </select>
+            <select id="width_tmp_select">
+              <option id="width_tmp_option"></option>
+            </select>
+          </span>
+        </span> has
+        <span class="animal-count">{{selected.genusCount}}</span> potential wildlife reservoirs in
+        <span class="family-count">{{selected.familyCount}}</span> families
+      </h1>
+    </div>
+    <div class="detailSection">
+      <InfoTitle v-bind:selectedVirusName="selectedVirusName" />
+      <InfoDescript v-bind:selectedVirusDescrip="selectedVirusDescrip" />
     </div>
   </div>
 </template>
 
 <script>
-import VirusData from "~/assets/virus-grouped.json";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import VirusInfo from "~/assets/data/virusInfo.json";
+import InfoTitle from "~/components/InfoTitle.vue";
+import InfoDescript from "~/components/InfoDescript.vue";
 export default {
   name: "Explore",
+  components: {
+    InfoTitle,
+    InfoDescript
+  },
   props: {
-    // options: {
-    //   type: String
-    // }
+    VirusOptions: {
+      type: Array,
+      required: true
+    }
   },
   data() {
     return {
-      VirusData: VirusData,
-      selected: "",
-      options: []
+      VirusInfo: VirusInfo,
+      selectedVirusName: null,
+      selectedVirusDescrip: null,
+      selected: {
+        value: "SARS",
+        familyCount: 7,
+        genusCount: 28
+      }
     };
   },
   mounted() {
@@ -59,44 +70,24 @@ export default {
       },
       false
     );
-    this.virusSelection();
-    this.updateVirus();
+    // this.selectedVirusDescrip = this.virusData[this.selected.value];
+    // console.log(this.selectedVirusDescrip)
+    this.changeVirus();
   },
 
-  computed: {},
   methods: {
-    virusSelection() {
-      const virusData = VirusData;
-      Object.keys(virusData).forEach(v => {
-        let obj = {};
-        obj.text = v;
-        obj.value = v;
-        obj.virusName = v;
-        obj.genusCount = 0;
-        Object.keys(virusData[v]).forEach(f => {
-          // console.log(f)
-          Object.size = function(obj) {
-            var size = 0,
-              key;
-            for (key in obj) {
-              if (obj.hasOwnProperty(key)) size++;
-            }
-            return size;
-          };
-          let familyCount = Object.size(VirusData[v]);
-          obj.familyCount = familyCount;
-          let allGenus = virusData[v][f].genus;
-          obj.genusCount += allGenus.length;
-        });
-
-        // console.log(obj);
-        this.options.push(obj);
-      });
-    },
-    updateVirus() {
-      this.$emit('updateVirus', this.selected.value)
-      // console.log(this.selected.value)
+    changeVirus(event) {
+      this.selectedVirusName = this.selected.value;
+      this.selectedVirusDescrip = this.virusData[this.selected.value]
+      console.log(this.selectedVirusName + ": " + this.selectedVirusDescrip)
     }
+  },
+  computed: {
+    virusData() {
+      return VirusInfo;
+    }
+  },
+  created() {
   }
 };
 </script>
@@ -109,7 +100,7 @@ export default {
   z-index: 0;
 }
 
-.section {
+.selectVirus {
   margin-left: 200px;
   color: white;
   padding-right: 560px;
@@ -162,16 +153,6 @@ h1 .family-count {
   font-size: 14px;
   height: 40px;
 }
-/* #virus-select::after {
-  font-family: FontAwesome;
-  content: "\f107";
-  font-size: 14px;
-  position: absolute;
-  top: 12px;
-  right: 20px;
-  color: #434b67;
-  pointer-events: none;
-} */
 
 #virus-select:focus {
   outline: 0;
@@ -182,5 +163,18 @@ h1 .family-count {
 }
 #width_tmp_select {
   display: none;
+}
+
+.detailSection {
+  height: 100%;
+  width: 540px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+  padding-top: 80px;
 }
 </style>

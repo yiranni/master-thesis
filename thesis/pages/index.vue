@@ -1,28 +1,63 @@
 <template>
   <div class="model">
     <Nav />
-    <Explore />
-    <Info />
-    <!-- <Intro /> -->
-    <!-- <Header>Demo</Header> -->
-    <!-- <Virus3D /> -->
+    <Explore v-bind:VirusOptions="VirusOptions" />
+
+    <!-- <Info /> -->
   </div>
 </template>
 
 <script>
+import VirusData from "~/assets/virus-grouped.json";
 import Nav from "~/components/Nav.vue";
 import Explore from "~/components/Explore.vue";
-import Info from "~/components/Info.vue";
+
+// import Info from "~/components/Info.vue";
 
 export default {
   components: {
     Nav,
     Explore,
-    Info
-    // Intro,
-    // Header,
-    // Virus3D
-    // BarChart
+
+    // Info
+  },
+  data() {
+    return {
+      VirusData: VirusData,
+      VirusOptions: []
+    };
+  },
+  mounted() {
+    this.getVirusOptions();
+  },
+  methods: {
+    getVirusOptions() {
+      const virusData = VirusData;
+      Object.keys(virusData).forEach(v => {
+        let obj = {};
+        obj.text = v;
+        obj.value = v;
+        obj.virusName = v;
+        obj.genusCount = 0;
+        Object.keys(virusData[v]).forEach(f => {
+          Object.size = function(obj) {
+            var size = 0,
+              key;
+            for (key in obj) {
+              if (obj.hasOwnProperty(key)) size++;
+            }
+            return size;
+          };
+          let familyCount = Object.size(VirusData[v]);
+          obj.familyCount = familyCount;
+          let allGenus = virusData[v][f].genus;
+          obj.genusCount += allGenus.length;
+        });
+
+        // console.log(obj);
+        this.VirusOptions.push(obj);
+      });
+    }
   }
 };
 </script>
