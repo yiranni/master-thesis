@@ -18,6 +18,7 @@ export default {
 p {
   color: white;
   margin-left: 40px;
+  margin-right: 60px;
   margin-top: 30px;
   font-size: 20px;
 }

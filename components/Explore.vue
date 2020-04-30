@@ -20,10 +20,18 @@
         <span class="animal-count">{{selected.genusCount}}</span> potential wildlife reservoirs in
         <span class="family-count">{{selected.familyCount}}</span> families
       </h1>
+
+      <Cluster v-bind:allFamily="allFamily" :selectedVirus="selectedVirusName" v-on:selectAnimal="updateSelectedAnimal($event)"/>
+      <!-- <Title v-bind:allFamily="allFamily" /> -->
     </div>
     <div class="detailSection">
-      <InfoTitle v-bind:selectedVirusName="selectedVirusName" />
-      <InfoDescript v-bind:selectedVirusDescrip="selectedVirusDescrip" />
+      <div v-if="!animalSelected">
+        <InfoTitle v-bind:selectedVirusName="selectedVirusName" />
+        <InfoDescript v-bind:selectedVirusDescrip="selectedVirusDescrip" />
+      </div>
+      <div v-if="animalSelected">
+        <AnimalDetails v-bind:selectedAnimal="selectedAnimal"/>
+      </div>
     </div>
   </div>
 </template>
@@ -32,11 +40,18 @@
 import VirusInfo from "~/assets/data/virusInfo.json";
 import InfoTitle from "~/components/InfoTitle.vue";
 import InfoDescript from "~/components/InfoDescript.vue";
+import Cluster from "~/components/Cluster.vue";
+import VirusGroup from "~/assets/virus-grouped.json";
+import Title from "~/components/Title.vue";
+import AnimalDetails from "~/components/AnimalDetails.vue"
 export default {
   name: "Explore",
   components: {
     InfoTitle,
-    InfoDescript
+    InfoDescript,
+    Cluster,
+    Title,
+    AnimalDetails
   },
   props: {
     VirusOptions: {
@@ -53,7 +68,11 @@ export default {
         value: "SARS",
         familyCount: 7,
         genusCount: 28
-      }
+      },
+      VirusGroup: VirusGroup,
+      allFamily: null,
+      animalSelected: false,
+      selectedAnimal: null
     };
   },
   mounted() {
@@ -70,25 +89,40 @@ export default {
       },
       false
     );
-    // this.selectedVirusDescrip = this.virusData[this.selected.value];
-    // console.log(this.selectedVirusDescrip)
     this.changeVirus();
   },
 
   methods: {
     changeVirus(event) {
       this.selectedVirusName = this.selected.value;
-      this.selectedVirusDescrip = this.virusData[this.selected.value]
-      console.log(this.selectedVirusName + ": " + this.selectedVirusDescrip)
+      this.selectedVirusDescrip = this.virusData[this.selected.value];
+      this.$emit("changeVirusName", this.selectedVirusName);
+
+      let selectedVirusReservoir = this.VirusGroup[this.selected.value];
+      this.allFamily = [];
+      Object.keys(selectedVirusReservoir).forEach(f => {
+        let selectedVirusReservoirFamily = {};
+        selectedVirusReservoirFamily.familyName = f;
+        let genusInFamily = selectedVirusReservoir[f].genus;
+        selectedVirusReservoirFamily.allGenus = genusInFamily;
+        this.allFamily.push(selectedVirusReservoirFamily);
+      });
+      this.animalSelected = false
+      // console.log(this.allFamily)
+    },
+
+    updateSelectedAnimal(updatedAnimal) {
+      this.selectedAnimal = updatedAnimal;
+      this.animalSelected = true;
     }
+
   },
   computed: {
     virusData() {
       return VirusInfo;
     }
   },
-  created() {
-  }
+  created() {}
 };
 </script>
 
@@ -176,5 +210,9 @@ h1 .family-count {
   overflow-x: hidden;
   /* padding-top: 20px; */
   padding-top: 80px;
+}
+
+p {
+  color: white;
 }
 </style>

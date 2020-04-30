@@ -1,0 +1,314 @@
+[
+ {
+  "genusName": "Acinonyx",
+  "commonName": "Cheetah"
+ },
+ {
+  "genusName": "Ailuropoda ",
+  "commonName": "Giant Panda "
+ },
+ {
+  "genusName": "Aonyx",
+  "commonName": "Clawless otter"
+ },
+ {
+  "genusName": "Aotus",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Callithrix",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Canis",
+  "commonName": "Canine"
+ },
+ {
+  "genusName": "Caracal",
+  "commonName": "Caracal"
+ },
+ {
+  "genusName": "Cebus",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Cephalophus",
+  "commonName": "Duiker Antelope"
+ },
+ {
+  "genusName": "Cephalorhynchus",
+  "commonName": "Dolphin"
+ },
+ {
+  "genusName": "Ceratotherium ",
+  "commonName": "White Rhinoceros"
+ },
+ {
+  "genusName": "Cercopithecus",
+  "commonName": "Guenon"
+ },
+ {
+  "genusName": "Cerdocyon",
+  "commonName": "Fox"
+ },
+ {
+  "genusName": "Cervus",
+  "commonName": "Deer"
+ },
+ {
+  "genusName": "Chaetophractus",
+  "commonName": "Armadillo"
+ },
+ {
+  "genusName": "Chinchilla",
+  "commonName": "Chincilla"
+ },
+ {
+  "genusName": "Chlorocebus",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Choloepus",
+  "commonName": "Sloth"
+ },
+ {
+  "genusName": "Civettictis",
+  "commonName": "African Civet"
+ },
+ {
+  "genusName": "Colobus",
+  "commonName": "Monkey "
+ },
+ {
+  "genusName": "Cryptoprocta",
+  "commonName": "Fosa"
+ },
+ {
+  "genusName": "Damaliscus",
+  "commonName": "Antelope"
+ },
+ {
+  "genusName": "Dasyprocta",
+  "commonName": "Agouti"
+ },
+ {
+  "genusName": "Dendrolagus",
+  "commonName": "Kangaroo"
+ },
+ {
+  "genusName": "Eira",
+  "commonName": "Tayra"
+ },
+ {
+  "genusName": "Elephas",
+  "commonName": "Asian Elephant"
+ },
+ {
+  "genusName": "Equus",
+  "commonName": "Horse "
+ },
+ {
+  "genusName": "Felis",
+  "commonName": "Cat"
+ },
+ {
+  "genusName": "Fossa",
+  "commonName": "Malagasy Civet "
+ },
+ {
+  "genusName": "Galago",
+  "commonName": "Galago"
+ },
+ {
+  "genusName": "Galictis",
+  "commonName": "Grison"
+ },
+ {
+  "genusName": "Gazella",
+  "commonName": "Gazelle"
+ },
+ {
+  "genusName": "Helarctos",
+  "commonName": "Sun bear"
+ },
+ {
+  "genusName": "Herpestes",
+  "commonName": "Mongoose"
+ },
+ {
+  "genusName": "Hexaprotodon",
+  "commonName": "Pygmy hippopotamus"
+ },
+ {
+  "genusName": "Hippotragus",
+  "commonName": "Antelope"
+ },
+ {
+  "genusName": "Hyaena",
+  "commonName": "Hyena"
+ },
+ {
+  "genusName": "Hylobates",
+  "commonName": "Gibbon"
+ },
+ {
+  "genusName": "Hyperoodon",
+  "commonName": "Bottlenose whale "
+ },
+ {
+  "genusName": "Leontopithecus",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Leptailurus",
+  "commonName": "Cat"
+ },
+ {
+  "genusName": "Lophocebus",
+  "commonName": "Mangabey"
+ },
+ {
+  "genusName": "Loxodonta",
+  "commonName": "African elephant "
+ },
+ {
+  "genusName": "Lutra",
+  "commonName": "Otter "
+ },
+ {
+  "genusName": "Lynx",
+  "commonName": "Cat"
+ },
+ {
+  "genusName": "Macaca",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Manis ",
+  "commonName": "Pangolin"
+ },
+ {
+  "genusName": "Mellivora",
+  "commonName": "Badger"
+ },
+ {
+  "genusName": "Melursus",
+  "commonName": "Sloth bear "
+ },
+ {
+  "genusName": "Microcebus",
+  "commonName": "Mouse lemur "
+ },
+ {
+  "genusName": "Mirounga",
+  "commonName": "Elephant seal "
+ },
+ {
+  "genusName": "Mustela",
+  "commonName": "Weasel"
+ },
+ {
+  "genusName": "Myrmecophaga",
+  "commonName": "Giant anteater "
+ },
+ {
+  "genusName": "Nasua",
+  "commonName": "Coati "
+ },
+ {
+  "genusName": "Neophocaena",
+  "commonName": "Porpoise"
+ },
+ {
+  "genusName": "Nycticebus",
+  "commonName": "Slow loris"
+ },
+ {
+  "genusName": "Odocoileus",
+  "commonName": "Deer"
+ },
+ {
+  "genusName": "Otocolobus",
+  "commonName": "Pallas cat "
+ },
+ {
+  "genusName": "Ovis",
+  "commonName": "Sheep"
+ },
+ {
+  "genusName": "Pan",
+  "commonName": "Chimpanzee"
+ },
+ {
+  "genusName": "Panthera",
+  "commonName": "Great cats"
+ },
+ {
+  "genusName": "Papio",
+  "commonName": "Baboon"
+ },
+ {
+  "genusName": "Paradoxurus",
+  "commonName": "Palm civet"
+ },
+ {
+  "genusName": "Pongo",
+  "commonName": "Orangutan"
+ },
+ {
+  "genusName": "Potamochoerus",
+  "commonName": "Afican Bush Pig"
+ },
+ {
+  "genusName": "Potos",
+  "commonName": "Kinkajou"
+ },
+ {
+  "genusName": "Prionailurus",
+  "commonName": "Feline"
+ },
+ {
+  "genusName": "Pteronura",
+  "commonName": "Otter"
+ },
+ {
+  "genusName": "Pteropus",
+  "commonName": "Bat"
+ },
+ {
+  "genusName": "Puma",
+  "commonName": "Feline"
+ },
+ {
+  "genusName": "Pygathrix",
+  "commonName": "Langur"
+ },
+ {
+  "genusName": "Saguinus",
+  "commonName": "Tamarin"
+ },
+ {
+  "genusName": "Speothos",
+  "commonName": "Canine"
+ },
+ {
+  "genusName": "Tamandua",
+  "commonName": "Anteater"
+ },
+ {
+  "genusName": "Trachypithecus",
+  "commonName": "Monkey"
+ },
+ {
+  "genusName": "Tupaia",
+  "commonName": "Tree shrew"
+ },
+ {
+  "genusName": "Ursus",
+  "commonName": "Bear"
+ },
+ {
+  "genusName": "Vulpes",
+  "commonName": "Fox"
+ }
+]

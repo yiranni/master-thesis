@@ -19,7 +19,6 @@ export default {
     Nav,
     Explore,
 
-    // Info
   },
   data() {
     return {

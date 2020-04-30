@@ -3,39 +3,39 @@
         "Felidae": {
             "genus": [
                 {
-                    "genus-name": "Acinonyx",
+                    "genusName": "Acinonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Caracal",
+                    "genusName": "Caracal",
                     "direct": false
                 },
                 {
-                    "genus-name": "Felis",
+                    "genusName": "Felis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leptailurus",
+                    "genusName": "Leptailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lynx",
+                    "genusName": "Lynx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Otocolobus",
+                    "genusName": "Otocolobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Panthera",
+                    "genusName": "Panthera",
                     "direct": false
                 },
                 {
-                    "genus-name": "Prionailurus",
+                    "genusName": "Prionailurus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Puma",
+                    "genusName": "Puma",
                     "direct": false
                 }
             ]
@@ -43,31 +43,31 @@
         "Mustelidae": {
             "genus": [
                 {
-                    "genus-name": "Aonyx",
+                    "genusName": "Aonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Eira",
+                    "genusName": "Eira",
                     "direct": false
                 },
                 {
-                    "genus-name": "Galictis",
+                    "genusName": "Galictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lutra",
+                    "genusName": "Lutra",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mellivora",
+                    "genusName": "Mellivora",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mustela",
+                    "genusName": "Mustela",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pteronura",
+                    "genusName": "Pteronura",
                     "direct": false
                 }
             ]
@@ -75,19 +75,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": false
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": true
                 }
             ]
@@ -95,19 +95,19 @@
         "Viverridae": {
             "genus": [
                 {
-                    "genus-name": "Civettictis",
+                    "genusName": "Civettictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Cryptoprocta",
+                    "genusName": "Cryptoprocta",
                     "direct": false
                 },
                 {
-                    "genus-name": "Fossa",
+                    "genusName": "Fossa",
                     "direct": false
                 },
                 {
-                    "genus-name": "Paradoxurus",
+                    "genusName": "Paradoxurus",
                     "direct": false
                 }
             ]
@@ -115,11 +115,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -127,7 +127,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -135,7 +135,7 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
+                    "genusName": "Pteropus",
                     "direct": false
                 }
             ]
@@ -145,39 +145,39 @@
         "Felidae": {
             "genus": [
                 {
-                    "genus-name": "Acinonyx",
+                    "genusName": "Acinonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Caracal",
+                    "genusName": "Caracal",
                     "direct": false
                 },
                 {
-                    "genus-name": "Felis",
+                    "genusName": "Felis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leptailurus",
+                    "genusName": "Leptailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lynx",
+                    "genusName": "Lynx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Otocolobus",
+                    "genusName": "Otocolobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Panthera",
+                    "genusName": "Panthera",
                     "direct": true
                 },
                 {
-                    "genus-name": "Prionailurus",
+                    "genusName": "Prionailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Puma",
+                    "genusName": "Puma",
                     "direct": false
                 }
             ]
@@ -185,31 +185,31 @@
         "Mustelidae": {
             "genus": [
                 {
-                    "genus-name": "Aonyx",
+                    "genusName": "Aonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Eira",
+                    "genusName": "Eira",
                     "direct": false
                 },
                 {
-                    "genus-name": "Galictis",
+                    "genusName": "Galictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lutra",
+                    "genusName": "Lutra",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mellivora",
+                    "genusName": "Mellivora",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mustela",
+                    "genusName": "Mustela",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pteronura",
+                    "genusName": "Pteronura",
                     "direct": false
                 }
             ]
@@ -217,7 +217,7 @@
         "Aotidae": {
             "genus": [
                 {
-                    "genus-name": "Aotus",
+                    "genusName": "Aotus",
                     "direct": false
                 }
             ]
@@ -225,19 +225,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": false
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": false
                 }
             ]
@@ -245,27 +245,35 @@
         "Cercopithecidae": {
             "genus": [
                 {
-                    "genus-name": "Cercopithecus",
+                    "genusName": "Cercopithecus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Chlorocebus",
+                    "genusName": "Chlorocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Colobus",
+                    "genusName": "Colobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lophocebus",
+                    "genusName": "Lophocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Macaca",
+                    "genusName": "Macaca",
                     "direct": true
                 },
                 {
-                    "genus-name": "Papio",
+                    "genusName": "Papio",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
                     "direct": false
                 }
             ]
@@ -273,19 +281,19 @@
         "Viverridae": {
             "genus": [
                 {
-                    "genus-name": "Civettictis",
+                    "genusName": "Civettictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Cryptoprocta",
+                    "genusName": "Cryptoprocta",
                     "direct": false
                 },
                 {
-                    "genus-name": "Fossa",
+                    "genusName": "Fossa",
                     "direct": false
                 },
                 {
-                    "genus-name": "Paradoxurus",
+                    "genusName": "Paradoxurus",
                     "direct": false
                 }
             ]
@@ -293,11 +301,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -305,23 +313,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cerconpithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Pygathrix",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercophithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Trachypithecus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -331,39 +323,39 @@
         "Felidae": {
             "genus": [
                 {
-                    "genus-name": "Acinonyx",
+                    "genusName": "Acinonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Caracal",
+                    "genusName": "Caracal",
                     "direct": false
                 },
                 {
-                    "genus-name": "Felis",
+                    "genusName": "Felis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leptailurus",
+                    "genusName": "Leptailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lynx",
+                    "genusName": "Lynx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Otocolobus",
+                    "genusName": "Otocolobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Panthera",
+                    "genusName": "Panthera",
                     "direct": true
                 },
                 {
-                    "genus-name": "Prionailurus",
+                    "genusName": "Prionailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Puma",
+                    "genusName": "Puma",
                     "direct": false
                 }
             ]
@@ -371,19 +363,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": false
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": false
                 }
             ]
@@ -391,23 +383,23 @@
         "Bovidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalophus",
+                    "genusName": "Cephalophus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Damaliscus",
+                    "genusName": "Damaliscus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Gazella",
+                    "genusName": "Gazella",
                     "direct": false
                 },
                 {
-                    "genus-name": "Hippotragus",
+                    "genusName": "Hippotragus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Ovis",
+                    "genusName": "Ovis",
                     "direct": true
                 }
             ]
@@ -415,7 +407,7 @@
         "Rhinocerotidae": {
             "genus": [
                 {
-                    "genus-name": "Ceratotherium ",
+                    "genusName": "Ceratotherium ",
                     "direct": true
                 }
             ]
@@ -423,7 +415,7 @@
         "Equidae": {
             "genus": [
                 {
-                    "genus-name": "Equus",
+                    "genusName": "Equus",
                     "direct": true
                 }
             ]
@@ -431,11 +423,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -443,7 +435,7 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
+                    "genusName": "Pteropus",
                     "direct": false
                 }
             ]
@@ -453,39 +445,39 @@
         "Felidae": {
             "genus": [
                 {
-                    "genus-name": "Acinonyx",
+                    "genusName": "Acinonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Caracal",
+                    "genusName": "Caracal",
                     "direct": false
                 },
                 {
-                    "genus-name": "Felis",
+                    "genusName": "Felis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leptailurus",
+                    "genusName": "Leptailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lynx",
+                    "genusName": "Lynx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Otocolobus",
+                    "genusName": "Otocolobus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Panthera",
+                    "genusName": "Panthera",
                     "direct": false
                 },
                 {
-                    "genus-name": "Prionailurus",
+                    "genusName": "Prionailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Puma",
+                    "genusName": "Puma",
                     "direct": false
                 }
             ]
@@ -493,19 +485,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": false
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": true
                 }
             ]
@@ -513,23 +505,23 @@
         "Bovidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalophus",
+                    "genusName": "Cephalophus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Damaliscus",
+                    "genusName": "Damaliscus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Gazella",
+                    "genusName": "Gazella",
                     "direct": false
                 },
                 {
-                    "genus-name": "Hippotragus",
+                    "genusName": "Hippotragus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Ovis",
+                    "genusName": "Ovis",
                     "direct": true
                 }
             ]
@@ -537,7 +529,7 @@
         "Rhinocerotidae": {
             "genus": [
                 {
-                    "genus-name": "Ceratotherium ",
+                    "genusName": "Ceratotherium ",
                     "direct": true
                 }
             ]
@@ -545,19 +537,19 @@
         "Viverridae": {
             "genus": [
                 {
-                    "genus-name": "Civettictis",
+                    "genusName": "Civettictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Cryptoprocta",
+                    "genusName": "Cryptoprocta",
                     "direct": false
                 },
                 {
-                    "genus-name": "Fossa",
+                    "genusName": "Fossa",
                     "direct": false
                 },
                 {
-                    "genus-name": "Paradoxurus",
+                    "genusName": "Paradoxurus",
                     "direct": false
                 }
             ]
@@ -565,11 +557,11 @@
         "Elephantidae": {
             "genus": [
                 {
-                    "genus-name": "Elephas",
+                    "genusName": "Elephas",
                     "direct": false
                 },
                 {
-                    "genus-name": "Loxodonta",
+                    "genusName": "Loxodonta",
                     "direct": true
                 }
             ]
@@ -577,7 +569,7 @@
         "Equidae": {
             "genus": [
                 {
-                    "genus-name": "Equus",
+                    "genusName": "Equus",
                     "direct": true
                 }
             ]
@@ -585,11 +577,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -597,7 +589,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -607,39 +599,39 @@
         "Felidae": {
             "genus": [
                 {
-                    "genus-name": "Acinonyx",
+                    "genusName": "Acinonyx",
                     "direct": true
                 },
                 {
-                    "genus-name": "Caracal",
+                    "genusName": "Caracal",
                     "direct": true
                 },
                 {
-                    "genus-name": "Felis",
+                    "genusName": "Felis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leptailurus",
+                    "genusName": "Leptailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lynx",
+                    "genusName": "Lynx",
                     "direct": true
                 },
                 {
-                    "genus-name": "Otocolobus",
+                    "genusName": "Otocolobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Panthera",
+                    "genusName": "Panthera",
                     "direct": false
                 },
                 {
-                    "genus-name": "Prionailurus",
+                    "genusName": "Prionailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Puma",
+                    "genusName": "Puma",
                     "direct": true
                 }
             ]
@@ -647,15 +639,15 @@
         "Ursidae": {
             "genus": [
                 {
-                    "genus-name": "Ailuropoda ",
+                    "genusName": "Ailuropoda ",
                     "direct": false
                 },
                 {
-                    "genus-name": "Melursus",
+                    "genusName": "Melursus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Ursus",
+                    "genusName": "Ursus",
                     "direct": true
                 }
             ]
@@ -663,27 +655,27 @@
         "Mustelidae": {
             "genus": [
                 {
-                    "genus-name": "Aonyx",
+                    "genusName": "Aonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Eira",
+                    "genusName": "Eira",
                     "direct": true
                 },
                 {
-                    "genus-name": "Galictis",
+                    "genusName": "Galictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mellivora",
+                    "genusName": "Mellivora",
                     "direct": true
                 },
                 {
-                    "genus-name": "Mustela",
+                    "genusName": "Mustela",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pteronura",
+                    "genusName": "Pteronura",
                     "direct": false
                 }
             ]
@@ -691,7 +683,7 @@
         "Aotidae": {
             "genus": [
                 {
-                    "genus-name": "Aotus",
+                    "genusName": "Aotus",
                     "direct": false
                 }
             ]
@@ -699,19 +691,19 @@
         "Cebidae": {
             "genus": [
                 {
-                    "genus-name": "Callithrix",
+                    "genusName": "Callithrix",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cebus",
+                    "genusName": "Cebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Leontopithecus",
+                    "genusName": "Leontopithecus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Saguinus",
+                    "genusName": "Saguinus",
                     "direct": false
                 }
             ]
@@ -719,19 +711,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": true
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": true
                 }
             ]
@@ -739,23 +731,23 @@
         "Bovidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalophus",
+                    "genusName": "Cephalophus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Damaliscus",
+                    "genusName": "Damaliscus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Gazella",
+                    "genusName": "Gazella",
                     "direct": false
                 },
                 {
-                    "genus-name": "Hippotragus",
+                    "genusName": "Hippotragus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Ovis",
+                    "genusName": "Ovis",
                     "direct": true
                 }
             ]
@@ -763,7 +755,7 @@
         "Delphinidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalorhynchus",
+                    "genusName": "Cephalorhynchus",
                     "direct": false
                 }
             ]
@@ -771,27 +763,35 @@
         "Cercopithecidae": {
             "genus": [
                 {
-                    "genus-name": "Cercopithecus",
+                    "genusName": "Cercopithecus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Chlorocebus",
+                    "genusName": "Chlorocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Colobus",
+                    "genusName": "Colobus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Lophocebus",
+                    "genusName": "Lophocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Macaca",
+                    "genusName": "Macaca",
                     "direct": false
                 },
                 {
-                    "genus-name": "Papio",
+                    "genusName": "Papio",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
                     "direct": false
                 }
             ]
@@ -799,11 +799,11 @@
         "Cervidae": {
             "genus": [
                 {
-                    "genus-name": "Cervus",
+                    "genusName": "Cervus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Odocoileus",
+                    "genusName": "Odocoileus",
                     "direct": true
                 }
             ]
@@ -811,7 +811,7 @@
         "Dasypodidae": {
             "genus": [
                 {
-                    "genus-name": "Chaetophractus",
+                    "genusName": "Chaetophractus",
                     "direct": false
                 }
             ]
@@ -819,7 +819,7 @@
         "Chinchillidae": {
             "genus": [
                 {
-                    "genus-name": "Chinchilla",
+                    "genusName": "Chinchilla",
                     "direct": true
                 }
             ]
@@ -827,19 +827,19 @@
         "Viverridae": {
             "genus": [
                 {
-                    "genus-name": "Civettictis",
+                    "genusName": "Civettictis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cryptoprocta",
+                    "genusName": "Cryptoprocta",
                     "direct": false
                 },
                 {
-                    "genus-name": "Fossa",
+                    "genusName": "Fossa",
                     "direct": false
                 },
                 {
-                    "genus-name": "Paradoxurus",
+                    "genusName": "Paradoxurus",
                     "direct": false
                 }
             ]
@@ -847,11 +847,11 @@
         "Elephantidae": {
             "genus": [
                 {
-                    "genus-name": "Elephas",
+                    "genusName": "Elephas",
                     "direct": true
                 },
                 {
-                    "genus-name": "Loxodonta",
+                    "genusName": "Loxodonta",
                     "direct": true
                 }
             ]
@@ -859,7 +859,7 @@
         "Equidae": {
             "genus": [
                 {
-                    "genus-name": "Equus",
+                    "genusName": "Equus",
                     "direct": true
                 }
             ]
@@ -867,7 +867,7 @@
         "Galagidae": {
             "genus": [
                 {
-                    "genus-name": "Galago",
+                    "genusName": "Galago",
                     "direct": true
                 }
             ]
@@ -875,7 +875,7 @@
         "Herpestidae": {
             "genus": [
                 {
-                    "genus-name": "Herpestes",
+                    "genusName": "Herpestes",
                     "direct": true
                 }
             ]
@@ -883,7 +883,7 @@
         "Hyaenidae": {
             "genus": [
                 {
-                    "genus-name": "Hyaena",
+                    "genusName": "Hyaena",
                     "direct": true
                 }
             ]
@@ -891,7 +891,7 @@
         "Phocidae": {
             "genus": [
                 {
-                    "genus-name": "Mirounga",
+                    "genusName": "Mirounga",
                     "direct": false
                 }
             ]
@@ -899,11 +899,11 @@
         "Procyonidae": {
             "genus": [
                 {
-                    "genus-name": "Nasua",
+                    "genusName": "Nasua",
                     "direct": true
                 },
                 {
-                    "genus-name": "Potos",
+                    "genusName": "Potos",
                     "direct": false
                 }
             ]
@@ -911,11 +911,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -923,7 +923,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -931,24 +931,8 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
+                    "genusName": "Pteropus",
                     "direct": true
-                }
-            ]
-        },
-        "Cerconpithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Pygathrix",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercophithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Trachypithecus",
-                    "direct": false
                 }
             ]
         }
@@ -957,39 +941,39 @@
         "Felidae": {
             "genus": [
                 {
-                    "genus-name": "Acinonyx",
+                    "genusName": "Acinonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Caracal",
+                    "genusName": "Caracal",
                     "direct": false
                 },
                 {
-                    "genus-name": "Felis",
+                    "genusName": "Felis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leptailurus",
+                    "genusName": "Leptailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lynx",
+                    "genusName": "Lynx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Otocolobus",
+                    "genusName": "Otocolobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Panthera",
+                    "genusName": "Panthera",
                     "direct": false
                 },
                 {
-                    "genus-name": "Prionailurus",
+                    "genusName": "Prionailurus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Puma",
+                    "genusName": "Puma",
                     "direct": false
                 }
             ]
@@ -997,19 +981,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": false
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": false
                 }
             ]
@@ -1017,11 +1001,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1029,7 +1013,7 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
+                    "genusName": "Pteropus",
                     "direct": true
                 }
             ]
@@ -1039,31 +1023,31 @@
         "Mustelidae": {
             "genus": [
                 {
-                    "genus-name": "Aonyx",
+                    "genusName": "Aonyx",
                     "direct": false
                 },
                 {
-                    "genus-name": "Eira",
+                    "genusName": "Eira",
                     "direct": true
                 },
                 {
-                    "genus-name": "Galictis",
+                    "genusName": "Galictis",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lutra",
+                    "genusName": "Lutra",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mellivora",
+                    "genusName": "Mellivora",
                     "direct": false
                 },
                 {
-                    "genus-name": "Mustela",
+                    "genusName": "Mustela",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pteronura",
+                    "genusName": "Pteronura",
                     "direct": false
                 }
             ]
@@ -1071,7 +1055,7 @@
         "Aotidae": {
             "genus": [
                 {
-                    "genus-name": "Aotus",
+                    "genusName": "Aotus",
                     "direct": false
                 }
             ]
@@ -1079,15 +1063,15 @@
         "Cebidae": {
             "genus": [
                 {
-                    "genus-name": "Callithrix",
+                    "genusName": "Callithrix",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cebus",
+                    "genusName": "Cebus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Leontopithecus",
+                    "genusName": "Leontopithecus",
                     "direct": false
                 }
             ]
@@ -1095,27 +1079,35 @@
         "Cercopithecidae": {
             "genus": [
                 {
-                    "genus-name": "Cercopithecus",
+                    "genusName": "Cercopithecus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Chlorocebus",
+                    "genusName": "Chlorocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Colobus",
+                    "genusName": "Colobus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Lophocebus",
+                    "genusName": "Lophocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Macaca",
+                    "genusName": "Macaca",
                     "direct": true
                 },
                 {
-                    "genus-name": "Papio",
+                    "genusName": "Papio",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
                     "direct": false
                 }
             ]
@@ -1123,7 +1115,7 @@
         "Megalonychidae": {
             "genus": [
                 {
-                    "genus-name": "Choloepus",
+                    "genusName": "Choloepus",
                     "direct": true
                 }
             ]
@@ -1131,7 +1123,7 @@
         "Dasyproctidae": {
             "genus": [
                 {
-                    "genus-name": "Dasyprocta",
+                    "genusName": "Dasyprocta",
                     "direct": true
                 }
             ]
@@ -1139,7 +1131,7 @@
         "Galagidae": {
             "genus": [
                 {
-                    "genus-name": "Galago",
+                    "genusName": "Galago",
                     "direct": true
                 }
             ]
@@ -1147,11 +1139,11 @@
         "Myrmecophagidae": {
             "genus": [
                 {
-                    "genus-name": "Myrmecophaga",
+                    "genusName": "Myrmecophaga",
                     "direct": false
                 },
                 {
-                    "genus-name": "Tamandua",
+                    "genusName": "Tamandua",
                     "direct": true
                 }
             ]
@@ -1159,27 +1151,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Cerconpithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Pygathrix",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercophithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Trachypithecus",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1189,7 +1165,7 @@
         "Aotidae": {
             "genus": [
                 {
-                    "genus-name": "Aotus",
+                    "genusName": "Aotus",
                     "direct": false
                 }
             ]
@@ -1197,39 +1173,47 @@
         "Cercopithecidae": {
             "genus": [
                 {
-                    "genus-name": "Cercopithecus",
+                    "genusName": "Cercopithecus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Chlorocebus",
+                    "genusName": "Chlorocebus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Colobus",
+                    "genusName": "Colobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lophocebus",
+                    "genusName": "Lophocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Macaca",
+                    "genusName": "Macaca",
                     "direct": false
                 },
                 {
-                    "genus-name": "Papio",
+                    "genusName": "Papio",
                     "direct": true
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "direct": false
                 }
             ]
         },
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1237,23 +1221,7 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cerconpithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Pygathrix",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercophithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Trachypithecus",
+                    "genusName": "Pteropus",
                     "direct": false
                 }
             ]
@@ -1263,7 +1231,7 @@
         "Aotidae": {
             "genus": [
                 {
-                    "genus-name": "Aotus",
+                    "genusName": "Aotus",
                     "direct": false
                 }
             ]
@@ -1271,23 +1239,23 @@
         "Bovidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalophus",
+                    "genusName": "Cephalophus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Damaliscus",
+                    "genusName": "Damaliscus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Gazella",
+                    "genusName": "Gazella",
                     "direct": false
                 },
                 {
-                    "genus-name": "Hippotragus",
+                    "genusName": "Hippotragus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Ovis",
+                    "genusName": "Ovis",
                     "direct": false
                 }
             ]
@@ -1295,39 +1263,47 @@
         "Cercopithecidae": {
             "genus": [
                 {
-                    "genus-name": "Cercopithecus",
+                    "genusName": "Cercopithecus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Chlorocebus",
+                    "genusName": "Chlorocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Colobus",
+                    "genusName": "Colobus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Lophocebus",
+                    "genusName": "Lophocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Macaca",
+                    "genusName": "Macaca",
                     "direct": true
                 },
                 {
-                    "genus-name": "Papio",
+                    "genusName": "Papio",
                     "direct": true
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "direct": false
                 }
             ]
         },
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1335,7 +1311,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -1343,23 +1319,7 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cerconpithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Pygathrix",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercophithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Trachypithecus",
+                    "genusName": "Pteropus",
                     "direct": false
                 }
             ]
@@ -1369,7 +1329,7 @@
         "Aotidae": {
             "genus": [
                 {
-                    "genus-name": "Aotus",
+                    "genusName": "Aotus",
                     "direct": false
                 }
             ]
@@ -1377,7 +1337,7 @@
         "Cebidae": {
             "genus": [
                 {
-                    "genus-name": "Cebus",
+                    "genusName": "Cebus",
                     "direct": true
                 }
             ]
@@ -1385,55 +1345,47 @@
         "Cercopithecidae": {
             "genus": [
                 {
-                    "genus-name": "Cercopithecus",
+                    "genusName": "Cercopithecus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Chlorocebus",
+                    "genusName": "Chlorocebus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Colobus",
+                    "genusName": "Colobus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Lophocebus",
+                    "genusName": "Lophocebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Macaca",
+                    "genusName": "Macaca",
                     "direct": true
                 },
                 {
-                    "genus-name": "Papio",
+                    "genusName": "Papio",
                     "direct": true
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "direct": false
                 }
             ]
         },
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": true
                 },
                 {
-                    "genus-name": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Cerconpithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Pygathrix",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercophithecidae": {
-            "genus": [
-                {
-                    "genus-name": "Trachypithecus",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1443,19 +1395,19 @@
         "Cebidae": {
             "genus": [
                 {
-                    "genus-name": "Callithrix",
+                    "genusName": "Callithrix",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cebus",
+                    "genusName": "Cebus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Leontopithecus",
+                    "genusName": "Leontopithecus",
                     "direct": true
                 },
                 {
-                    "genus-name": "Saguinus",
+                    "genusName": "Saguinus",
                     "direct": true
                 }
             ]
@@ -1463,11 +1415,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1477,19 +1429,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genus-name": "Canis",
+                    "genusName": "Canis",
                     "direct": true
                 },
                 {
-                    "genus-name": "Cerdocyon",
+                    "genusName": "Cerdocyon",
                     "direct": false
                 },
                 {
-                    "genus-name": "Speothos",
+                    "genusName": "Speothos",
                     "direct": false
                 },
                 {
-                    "genus-name": "Vulpes",
+                    "genusName": "Vulpes",
                     "direct": false
                 }
             ]
@@ -1497,19 +1449,19 @@
         "Bovidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalophus",
+                    "genusName": "Cephalophus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Damaliscus",
+                    "genusName": "Damaliscus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Gazella",
+                    "genusName": "Gazella",
                     "direct": false
                 },
                 {
-                    "genus-name": "Ovis",
+                    "genusName": "Ovis",
                     "direct": false
                 }
             ]
@@ -1517,7 +1469,7 @@
         "Delphinidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalorhynchus",
+                    "genusName": "Cephalorhynchus",
                     "direct": false
                 }
             ]
@@ -1525,7 +1477,7 @@
         "Equidae": {
             "genus": [
                 {
-                    "genus-name": "Equus",
+                    "genusName": "Equus",
                     "direct": true
                 }
             ]
@@ -1533,11 +1485,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1545,7 +1497,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -1555,19 +1507,19 @@
         "Bovidae": {
             "genus": [
                 {
-                    "genus-name": "Cephalophus",
+                    "genusName": "Cephalophus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Damaliscus",
+                    "genusName": "Damaliscus",
                     "direct": false
                 },
                 {
-                    "genus-name": "Gazella",
+                    "genusName": "Gazella",
                     "direct": false
                 },
                 {
-                    "genus-name": "Ovis",
+                    "genusName": "Ovis",
                     "direct": true
                 }
             ]
@@ -1575,11 +1527,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1587,7 +1539,7 @@
         "Pteropodidae": {
             "genus": [
                 {
-                    "genus-name": "Pteropus",
+                    "genusName": "Pteropus",
                     "direct": false
                 }
             ]
@@ -1597,11 +1549,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1611,11 +1563,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1623,7 +1575,7 @@
         "Suidae": {
             "genus": [
                 {
-                    "genus-name": "Potamochoerus",
+                    "genusName": "Potamochoerus",
                     "direct": false
                 }
             ]
@@ -1633,11 +1585,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]
@@ -1647,11 +1599,11 @@
         "Hominidae": {
             "genus": [
                 {
-                    "genus-name": "Pan",
+                    "genusName": "Pan",
                     "direct": false
                 },
                 {
-                    "genus-name": "Pongo",
+                    "genusName": "Pongo",
                     "direct": false
                 }
             ]

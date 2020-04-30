@@ -1,9 +1,9 @@
 {
-  "name": "thesis",
+  "name": "global-journey",
   "version": "1.0.0",
-  "description": "My shining Nuxt.js project",
+  "description": "",
   "author": "Yiran Ni",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
