@@ -1,9 +1,17 @@
 <template>
   <div>
+    <Nav />
     <nuxt />
   </div>
 </template>
-
+<script>
+import Nav from "../components/Nav";
+export default {
+  components: {
+    Nav
+  }
+};
+</script>
 <style>
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -16,9 +24,8 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
-
 </style>

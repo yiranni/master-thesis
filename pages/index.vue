@@ -1,6 +1,7 @@
 <template>
   <div class="model">
-    <Nav />
+    <!-- <Nav /> -->
+    
     <Explore v-bind:VirusOptions="VirusOptions" />
 
     <!-- <Info /> -->
@@ -9,14 +10,14 @@
 
 <script>
 import VirusData from "~/assets/virus-grouped.json";
-import Nav from "~/components/Nav.vue";
+// import Nav from "~/components/Nav.vue";
 import Explore from "~/components/Explore.vue";
 
 // import Info from "~/components/Info.vue";
 
 export default {
   components: {
-    Nav,
+    // Nav,
     Explore,
 
   },

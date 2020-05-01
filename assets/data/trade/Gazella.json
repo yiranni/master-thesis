@@ -1,0 +1,38 @@
+[
+ {
+  "Year": "2018",
+  "App.": "I",
+  "Taxon": "Gazella cuvieri",
+  "Class": "Mammalia",
+  "Order": "Artiodactyla",
+  "Family": "Bovidae",
+  "Genus": "Gazella",
+  "Importer": "ES",
+  "Exporter": "TN",
+  "Origin": "",
+  "Importerreportedquantity": "",
+  "Exporterreportedquantity": "12",
+  "Term": "specimens",
+  "Unit": "",
+  "Purpose": "S",
+  "Source": "C"
+ },
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Gazella dorcas",
+  "Class": "Mammalia",
+  "Order": "Artiodactyla",
+  "Family": "Bovidae",
+  "Genus": "Gazella",
+  "Importer": "US",
+  "Exporter": "TN",
+  "Origin": "",
+  "Importerreportedquantity": "1",
+  "Exporterreportedquantity": "",
+  "Term": "horn carvings",
+  "Unit": "",
+  "Purpose": "P",
+  "Source": "I"
+ }
+]

@@ -4,8 +4,8 @@
       <img src="~/assets/logo.svg" id="logo" />
     </a>
     <div class="menu-items">
-      <a>EXPLORE</a>
-      <a>ABOUT</a>
+      <nuxt-link to="/" >EXPLORE</nuxt-link>
+      <nuxt-link to="/about" >ABOUT</nuxt-link>
     </div>
   </div>
 </template>
@@ -47,6 +47,7 @@ export default {
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
 
 .menu-items {
   margin-top: 16vh;

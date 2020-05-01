@@ -1,0 +1,38 @@
+[
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Dasyprocta punctata",
+  "Class": "Mammalia",
+  "Order": "Rodentia",
+  "Family": "Dasyproctidae",
+  "Genus": "Dasyprocta",
+  "Importer": "MX",
+  "Exporter": "US",
+  "Origin": "MX",
+  "Importerreportedquantity": "",
+  "Exporterreportedquantity": "1",
+  "Term": "trophies",
+  "Unit": "",
+  "Purpose": "P",
+  "Source": "W"
+ },
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Dasyprocta punctata",
+  "Class": "Mammalia",
+  "Order": "Rodentia",
+  "Family": "Dasyproctidae",
+  "Genus": "Dasyprocta",
+  "Importer": "US",
+  "Exporter": "MX",
+  "Origin": "",
+  "Importerreportedquantity": "15",
+  "Exporterreportedquantity": "",
+  "Term": "trophies",
+  "Unit": "",
+  "Purpose": "P",
+  "Source": "W"
+ }
+]

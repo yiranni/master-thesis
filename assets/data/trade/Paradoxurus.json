@@ -1,0 +1,38 @@
+[
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Paradoxurus hermaphroditus",
+  "Class": "Mammalia",
+  "Order": "Carnivora",
+  "Family": "Viverridae",
+  "Genus": "Paradoxurus",
+  "Importer": "OM",
+  "Exporter": "TH",
+  "Origin": "",
+  "Importerreportedquantity": "",
+  "Exporterreportedquantity": "8",
+  "Term": "live",
+  "Unit": "",
+  "Purpose": "T",
+  "Source": "C"
+ },
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Paradoxurus hermaphroditus",
+  "Class": "Mammalia",
+  "Order": "Carnivora",
+  "Family": "Viverridae",
+  "Genus": "Paradoxurus",
+  "Importer": "OM",
+  "Exporter": "TH",
+  "Origin": "",
+  "Importerreportedquantity": "8",
+  "Exporterreportedquantity": "",
+  "Term": "live",
+  "Unit": "",
+  "Purpose": "T",
+  "Source": "W"
+ }
+]

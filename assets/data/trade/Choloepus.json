@@ -1,0 +1,38 @@
+[
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Choloepus hoffmanni",
+  "Class": "Mammalia",
+  "Order": "Pilosa",
+  "Family": "Megalonychidae",
+  "Genus": "Choloepus",
+  "Importer": "US",
+  "Exporter": "GB",
+  "Origin": "XX",
+  "Importerreportedquantity": "",
+  "Exporterreportedquantity": "1",
+  "Term": "bodies",
+  "Unit": "",
+  "Purpose": "T",
+  "Source": "O"
+ },
+ {
+  "Year": "2018",
+  "App.": "III",
+  "Taxon": "Choloepus hoffmanni",
+  "Class": "Mammalia",
+  "Order": "Pilosa",
+  "Family": "Megalonychidae",
+  "Genus": "Choloepus",
+  "Importer": "US",
+  "Exporter": "PA",
+  "Origin": "",
+  "Importerreportedquantity": "2",
+  "Exporterreportedquantity": "",
+  "Term": "live",
+  "Unit": "",
+  "Purpose": "Z",
+  "Source": "W"
+ }
+]

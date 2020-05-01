@@ -1,0 +1,38 @@
+[
+ {
+  "Year": "2018",
+  "App.": "I",
+  "Taxon": "Hyperoodon ampullatus",
+  "Class": "Mammalia",
+  "Order": "Cetacea",
+  "Family": "Ziphiidae",
+  "Genus": "Hyperoodon",
+  "Importer": "US",
+  "Exporter": "GB",
+  "Origin": "",
+  "Importerreportedquantity": "3",
+  "Exporterreportedquantity": "",
+  "Term": "specimens",
+  "Unit": "",
+  "Purpose": "S",
+  "Source": "W"
+ },
+ {
+  "Year": "2018",
+  "App.": "I",
+  "Taxon": "Hyperoodon planifrons",
+  "Class": "Mammalia",
+  "Order": "Cetacea",
+  "Family": "Ziphiidae",
+  "Genus": "Hyperoodon",
+  "Importer": "CA",
+  "Exporter": "US",
+  "Origin": "XX",
+  "Importerreportedquantity": "",
+  "Exporterreportedquantity": "1",
+  "Term": "skulls",
+  "Unit": "",
+  "Purpose": "Q",
+  "Source": "W"
+ }
+]

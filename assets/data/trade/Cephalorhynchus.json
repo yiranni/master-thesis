@@ -1,0 +1,38 @@
+[
+ {
+  "Year": "2018",
+  "App.": "II",
+  "Taxon": "Cephalorhynchus hectori",
+  "Class": "Mammalia",
+  "Order": "Cetacea",
+  "Family": "Delphinidae",
+  "Genus": "Cephalorhynchus",
+  "Importer": "CA",
+  "Exporter": "US",
+  "Origin": "XX",
+  "Importerreportedquantity": "",
+  "Exporterreportedquantity": "1",
+  "Term": "skeletons",
+  "Unit": "",
+  "Purpose": "Q",
+  "Source": "W"
+ },
+ {
+  "Year": "2018",
+  "App.": "II",
+  "Taxon": "Cephalorhynchus hectori",
+  "Class": "Mammalia",
+  "Order": "Cetacea",
+  "Family": "Delphinidae",
+  "Genus": "Cephalorhynchus",
+  "Importer": "US",
+  "Exporter": "NZ",
+  "Origin": "",
+  "Importerreportedquantity": "4",
+  "Exporterreportedquantity": "",
+  "Term": "specimens",
+  "Unit": "",
+  "Purpose": "S",
+  "Source": "W"
+ }
+]
