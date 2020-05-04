@@ -89,8 +89,6 @@ export default {
   },
   mounted() {
     this.setup();
-    // this.findOtherVirus(this.hoveredAnimal)
-    // this.matchName();
   },
   methods: {
     setup() {

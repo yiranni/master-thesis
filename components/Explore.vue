@@ -72,7 +72,9 @@ export default {
       VirusGroup: VirusGroup,
       allFamily: null,
       animalSelected: false,
-      selectedAnimal: null
+      selectedAnimal: null,
+      // selectedVirusReservoir: null,
+      direct: null
     };
   },
   mounted() {
@@ -90,6 +92,7 @@ export default {
       false
     );
     this.changeVirus();
+    this.findRelation();
   },
 
   methods: {
@@ -114,6 +117,10 @@ export default {
     updateSelectedAnimal(updatedAnimal) {
       this.selectedAnimal = updatedAnimal;
       this.animalSelected = true;
+    },
+
+    findRelation() {
+      this.direct = this.VirusGroup[this.selectedVirusName]
     }
 
   },
