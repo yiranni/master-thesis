@@ -149,7 +149,7 @@ export async function setContext (app, context) {
 
       payload: context.payload,
       error: context.error,
-      base: '/',
+      base: 'https://yiranni.github.io/master-thesis/',
       env: {}
     }
     // Only set once

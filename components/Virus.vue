@@ -4,57 +4,34 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 540 578.92"
   >
-    <defs>
-      <style>
-  .cls-1 {
-    fill: #ff6496;
-  }
-  .cls-2 {
-    fill: #f73179;
-  }
-  .cls-3 {
-    fill: url(#linear-gradient);
-  }
-  .cls-4 {
-    fill: url(#linear-gradient-2);
-  }
-  .cls-5 {
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 4px;
-    stroke: url(#linear-gradient-3);
-  }
-      </style>
-      <linearGradient
-        id="linear-gradient"
-        x1="177.09"
-        y1="200.5"
-        x2="203.09"
-        y2="200.5"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset="0" stop-color="#121212" />
-        <stop offset="0" />
-      </linearGradient>
-      <linearGradient
-        id="linear-gradient-2"
-        x1="280.09"
-        y1="200.5"
-        x2="306.09"
-        y2="200.5"
-        xlink:href="#linear-gradient"
-      />
-      <linearGradient
-        id="linear-gradient-3"
-        x1="295.14"
-        y1="223.72"
-        x2="321.14"
-        y2="223.72"
-        gradientTransform="translate(-33.16 83.69) rotate(-2.81)"
-        xlink:href="#linear-gradient"
-      />
-    </defs>
+    <linearGradient
+      id="linear-gradient"
+      x1="177.09"
+      y1="200.5"
+      x2="203.09"
+      y2="200.5"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0" stop-color="#121212" />
+      <stop offset="0" />
+    </linearGradient>
+    <linearGradient
+      id="linear-gradient-2"
+      x1="280.09"
+      y1="200.5"
+      x2="306.09"
+      y2="200.5"
+      xlink:href="#linear-gradient"
+    />
+    <linearGradient
+      id="linear-gradient-3"
+      x1="295.14"
+      y1="223.72"
+      x2="321.14"
+      y2="223.72"
+      gradientTransform="translate(-33.16 83.69) rotate(-2.81)"
+      xlink:href="#linear-gradient"
+    />
     <title>Asset 4</title>
     <g id="Layer_2" data-name="Layer 2">
       <g id="Layer_3" data-name="Layer 3">
@@ -62,7 +39,7 @@
         <rect class="cls-1" x="221.59" width="98.72" height="43.03" rx="17" />
         <rect class="cls-2" x="302.59" y="446" width="23.12" height="132.92" />
         <rect class="cls-2" x="302.59" y="553.33" width="71" height="25.59" rx="12.8" />
-        <rect class="cls-2" x="100.27" y="504.91" width="71" height="26.09" rx="12.8" />
+        <rect id="foot" class="cls-2" x="100.27" y="514.91" width="71" height="26.09" rx="12.8" />
         <rect
           class="cls-1"
           x="474.82"
@@ -199,7 +176,41 @@
     </g>
   </svg>
 </template>
-<style>
+      <style scoped>
+.cls-1 {
+  fill: #ff6496;
+}
+.cls-2 {
+  fill: #f73179;
+}
+.cls-3 {
+  fill: url(#linear-gradient);
+}
+.cls-4 {
+  fill: url(#linear-gradient-2);
+}
+.cls-5 {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  stroke: url(#linear-gradient-3);
+}
 
+#foot {
+  animation: 0.5s 6 rotate;
+  /* animation-iteration-count: 3; */
+  animation-timing-function: linear;
+}
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    transform-origin: 171.27px 531.1px;
+  }
+  to {
+    transform: rotate(20deg);
+    transform-origin: 171.27px 531.1px;
+  }
+}
 </style>
