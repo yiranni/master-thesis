@@ -30,28 +30,30 @@
       </g>
       <g v-if="dotHovered" :transform="getToolTipPosition(toolTipX, toolTipY)">
         <rect fill="#000000" :width="300" :height="300" stroke="#FF6496" />
-        
-          <text
-            class="commonName"
-            fill="#FF6496"
-            :transform="`translate(14, 30)`"
-          >{{matchName(hoveredAnimal)}}</text>
-          <line stroke="#FF6496" x1="0" y1="44" x2="300" y2="44" />
-          <text class="genusName" fill="#929292" :transform="`translate(14, 64)`">{{hoveredAnimal}}</text>
-          <text fill="#ffffff" :transform="`translate(14, 88)`">Also reservoir of {{findOtherVirus(selectedVirus, hoveredAnimal).length}} other virus</text>
-          <g
-            v-for="(virus,v) in findOtherVirus(selectedVirus, hoveredAnimal)"
-            :key="v"
-            :transform="`translate(20, ${120 + 24 * v})`"
-          >
-            <circle :r="4" :fill="dotColor(virus.direct)" :transform="`translate(0, -4)`" />
-            <text
-              class="foundVirus"
-              fill="#ffffff"
-              :transform="`translate(14, 0)`"
-            >{{virus.virusName}}</text>
-          </g>
 
+        <text
+          class="commonName"
+          fill="#FF6496"
+          :transform="`translate(14, 30)`"
+        >{{matchName(hoveredAnimal)}}</text>
+        <line stroke="#FF6496" x1="0" y1="44" x2="300" y2="44" />
+        <text class="genusName" fill="#929292" :transform="`translate(14, 64)`">{{hoveredAnimal}}</text>
+        <text
+          fill="#ffffff"
+          :transform="`translate(14, 88)`"
+        >Also reservoir of {{findOtherVirus(selectedVirus, hoveredAnimal).length}} other virus</text>
+        <g
+          v-for="(virus,v) in findOtherVirus(selectedVirus, hoveredAnimal)"
+          :key="v"
+          :transform="`translate(20, ${120 + 24 * v})`"
+        >
+          <circle :r="4" :fill="dotColor(virus.direct)" :transform="`translate(0, -4)`" />
+          <text
+            class="foundVirus"
+            fill="#ffffff"
+            :transform="`translate(14, 0)`"
+          >{{virus.virusName}}</text>
+        </g>
 
         <!-- <text fill="#ffffff" :transform="`translate(14, 100)`">{{findOtherVirus(selectedVirus, hoveredAnimal)}}</text> -->
       </g>
@@ -136,15 +138,15 @@ export default {
     },
 
     getToolTipPosition(x, y) {
-      if(x + 300 > this.$refs.container.offsetWidth) {
-        return `translate(${this.$refs.container.offsetWidth - 320}, ${y + 8})`
+      if (x + 300 > this.$refs.container.offsetWidth) {
+        return `translate(${this.$refs.container.offsetWidth - 320}, ${y + 8})`;
       }
-      return `translate(${x + 8}, ${y + 8})`
+      return `translate(${x + 8}, ${y + 8})`;
     },
 
     selectAnimal(genusName) {
       this.selectedAnimal = genusName;
-      this.$emit('selectAnimal', genusName)
+      this.$emit("selectAnimal", genusName);
     }
   },
   computed: {}

@@ -1,0 +1,27 @@
+[
+    {
+        "Country": "KW",
+        "Country_Full": "Kuwait",
+        "Amount": 31919
+    },
+    {
+        "Country": "KZ",
+        "Country_Full": "Kazakhstan",
+        "Amount": 25021
+    },
+    {
+        "Country": "RS",
+        "Country_Full": "Serbia",
+        "Amount": 5343
+    },
+    {
+        "Country": "MO",
+        "Country_Full": "Macau",
+        "Amount": 1073
+    },
+    {
+        "Country": "IQ",
+        "Country_Full": "Iraq",
+        "Amount": 781
+    }
+]

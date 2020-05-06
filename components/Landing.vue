@@ -26,13 +26,52 @@
           Many people come into contact with animals in their daily lives,
           at home and away from home, in urban and rural areas.
           Animals bring benefits to humans as food, livelihoods, and companionship.
-          However, animals could also carry harmful germs that spread to humans and cause illness,
+          A huge number of these animal species have been under international trading.
+        </p>
+        <p>Endangered animals are more vulnerable to be the target of wildlife trading because of their rarity which increased their economic value.</p>
+        <p>
+          <a href="#">CITES</a> prvides a legal framework for regulating international trade in sprecies threatened or potentially threatened by that trade. Under terms of CITES, Parties are required to submit annual reports to the CITES. In 2019,
+          <b>64148</b> species were reported by exporters, and
+          <b>61224</b> species were reported by importers.
+        </p>
+      </div>
+
+      <h2 class="sub-header">2019 Top 5 Import Countries</h2>
+      <SummaryImportCountry />
+      <h2 class="sub-header">2019 Top 5 Export Countries</h2>
+      <SummaryExportCountry />
+      <div class="content">
+        <p>Wildlife animal species are being traded in various forms, and the top 3 forms of trading in 2019 are skin, live, and leather.</p>
+      </div>
+      <h2 class="sub-header">2019 Global Wildlife Animal Trading Amount by Terms</h2>
+      <SummaryExportTerm />
+      <div class="content">
+        <p>
+          In 2019, trading data reported to CITES included
+          <b>251</b> threatened or potentially threatened wildlife animal species. Among these species, the following have the largest amount
+        </p>
+      </div>
+      <AnimalTradeQuantity />
+      <div class="content">
+        <p>
+          Wildlife animal trading is a multi-billion-dollar industry. Caimans, the species involed in the most numerous international trading, are most common traded in the form of skins. The latest
+          <a
+            href="#"
+          >price</a> of a Caiman skin is USD $270 for selling. 52918 Caimans traded in 2019 involved a cash flow of
+        </p>
+        <div class="highlighted">
+          <h3>52,918 X 270 = USD $14,287,860</h3>
+        </div>
+      </div>
+
+      <div class="content">
+        <p>
+          While wildlife animals trading brings profit to both parties, it could also carry harmful germs that spread to humans and cause illness,
           even death, which are known as
           <a
             href="#"
           >zoonotic diseases</a>.
         </p>
-
         <p>Zoonotic diseases are much more common than most people realize: within hundreds of emerging infectious diseases (EIDs) reported since 1940, 60.3% of EID events are caused by zoonotic pathogens, which have a non-human animal source.</p>
 
         <p>
@@ -40,22 +79,14 @@
           For instance, plague, also known as the Black Death during the Middle Ages, killed millions of people during World Wars I and II. Even though it has been eradicated in most parts of the world with the help of modern medicine, it still occurs in the United States. This is not due to any public health related shortcomings but because this disease has spread to North American wildlife.
         </p>
         <p>
-          Wildlife animal trading is a multi-billion-dollar industry. In 2019, a total amount of
-          <b>61225</b> wildlife animals were traded globally in various terms, including live, skin, leather, specimens, etc. Let's start looking at the top 3 trading terms.
-        </p>
-      </div>
-
-      <h2 class="sub-header">2019 Global Wildlife Animal Trading Amount by Terms</h2>
-      <SummaryExportTerm />
-      <div class="content">
-        <p>
-          You may ask how the vast trading becomes the culprit of zoonotic diseases. Let's take a look at the trading volum of wildlife animals that are reservoirs of
+          Let's take a look at the trading volum of wildlife animals that are reservoirs of
           <b
             class="selectedVirus"
           >{{selected.value}}</b>
-          . (You can select a different virus other than {{selected.value}} at the top of the page.)
+          . (You can select a different virus other than {{selected.value}} at the <button id="topButton">top</button> of the page.)
         </p>
       </div>
+      <TradeWithVirus :selectedVirus="selectedVirusName"/>
       <!-- <Title v-bind:allFamily="allFamily" /> -->
     </div>
     <div class="figure-container">
@@ -78,7 +109,10 @@ import VirusGroup from "~/assets/virus-grouped.json";
 import Title from "~/components/Title.vue";
 import AnimalDetails from "~/components/AnimalDetails.vue";
 import SummaryExportTerm from "~/components/SummaryExportTerm.vue";
-
+import SummaryExportCountry from "~/components/SummaryExportCountry.vue";
+import SummaryImportCountry from "~/components/SummaryImportCountry.vue";
+import AnimalTradeQuantity from "~/components/AnimalTradeQuantity.vue";
+import TradeWithVirus from "~/components/TradeWithVirus.vue";
 // svg imgs
 import Virus from "~/components/Virus.vue";
 import Tail from "~/components/Tail.vue";
@@ -91,7 +125,11 @@ export default {
     Tail,
     Shadow,
     Money,
-    SummaryExportTerm
+    SummaryExportTerm,
+    SummaryExportCountry,
+    SummaryImportCountry,
+    AnimalTradeQuantity,
+    TradeWithVirus
   },
   props: {
     VirusOptions: {
@@ -126,9 +164,15 @@ export default {
       false
     );
 
+    document.getElementById("topButton").addEventListener("click",
+    function() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    })
+
     // document.addEventListener("scroll", this.handleScroll);
     this.changeVirus();
-    this.handleScroll()
+    this.handleScroll();
   },
 
   methods: {
@@ -158,18 +202,17 @@ export default {
       return VirusInfo;
     }
   },
-  created() {
-   
-  }
+  created() {}
 };
 </script>
 
 <style scoped>
 .main {
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 100; */
   background-color: #313437;
   z-index: 0;
+  /* padding-bottom: 200px; */
 }
 
 .selectVirus {
@@ -210,6 +253,14 @@ h1 .family-count {
   color: #f73179;
 }
 
+.highlighted {
+  color: #f73179;
+  font-weight: normal;
+  font-style: oblique;
+  font-size: 42px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 #virus-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -289,5 +340,19 @@ a {
 
 .selectedVirus {
   color: #f73179;
+}
+
+#topButton {
+  font-size: 20px;
+  color: #f73179;
+  background: none;
+  padding-bottom: 6px;
+  border: none;
+  border-bottom: 2px solid #f73179;
+}
+
+#topButton:focus {
+  outline: 0;
+  cursor: pointer;
 }
 </style>

@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       exportByTerm: exportByTerm,
-      width: 600,
+      width: 700,
       height: 200
     };
   },
@@ -27,7 +27,7 @@ export default {
       let containerWidth = this.width;
       let containerHeight = this.height;
       let containerMarginRight = 150;
-      let containerMarginLeft = 70;
+      let containerMarginLeft = 120;
 
       const barChart = d3
         .select(barChartContainer)
@@ -38,7 +38,7 @@ export default {
         .scaleBand()
         .range([0, containerHeight])
         .padding(0.4);
-      const xScale = d3.scaleLinear().range([0, containerWidth - containerMarginRight]);
+      const xScale = d3.scaleLinear().range([0, containerWidth - containerMarginRight- containerMarginLeft]);
 
       yScale.domain(
         exportTermData.map(function(d) {
