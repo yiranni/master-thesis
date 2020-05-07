@@ -73,7 +73,7 @@ export default {
       allFamily: null,
       animalSelected: false,
       selectedAnimal: null,
-      // selectedVirusReservoir: null,
+      selectedVirusReservoir: null,
       direct: null
     };
   },
@@ -142,13 +142,14 @@ export default {
 }
 
 .selectVirus {
-  margin-left: 200px;
+  /* margin-left: 200px; */
   color: white;
   padding-right: 560px;
 }
 
 h1 {
   padding-top: 80px;
+  padding-left: 200px;
   font-size: 24px;
   font-weight: normal;
   line-height: 36px;

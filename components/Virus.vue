@@ -39,7 +39,7 @@
         <rect class="cls-1" x="221.59" width="98.72" height="43.03" rx="17" />
         <rect class="cls-2" x="302.59" y="446" width="23.12" height="132.92" />
         <rect class="cls-2" x="302.59" y="553.33" width="71" height="25.59" rx="12.8" />
-        <rect id="foot" class="cls-2" x="100.27" y="514.91" width="71" height="26.09" rx="12.8" />
+        <rect class="cls-2" id="foot" x="100.27" y="514.91" width="71" height="26.09" rx="12.8" />
         <rect
           class="cls-1"
           x="474.82"
@@ -176,6 +176,22 @@
     </g>
   </svg>
 </template>
+
+<script>
+import * as $ from "jquery";
+export default {
+  mounted() {
+    // $(document).ready(function() {
+    //   $("body").scroll(function() {
+    //     $("#foot").addClass("animate")
+    //   })
+    // })
+    window.document.body.onscroll = function() {
+      $("#foot").addClass("animate");
+    };
+  }
+};
+</script>
       <style scoped>
 .cls-1 {
   fill: #ff6496;
@@ -197,7 +213,7 @@
   stroke: url(#linear-gradient-3);
 }
 
-#foot {
+#foot.animate{ 
   animation: 0.5s 6 rotate;
   /* animation-iteration-count: 3; */
   animation-timing-function: linear;

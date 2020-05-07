@@ -83,10 +83,14 @@
           <b
             class="selectedVirus"
           >{{selected.value}}</b>
-          . (You can select a different virus other than {{selected.value}} at the <button id="topButton">top</button> of the page.)
+          . (You can select a different virus other than {{selected.value}} at the
+          <button id="topButton">top</button> of the page.)
         </p>
       </div>
-      <TradeWithVirus :selectedVirus="selectedVirusName"/>
+      <TradeWithVirus :selectedVirus="selectedVirusName" />
+      <div class="content" style="padding-bottom: 200px">
+        <p>If you would like to know more infomation about zoonotic diseases and their reservoirs involved in international tradings. Let's go to Explore Dashboard!</p>
+      </div>
       <!-- <Title v-bind:allFamily="allFamily" /> -->
     </div>
     <div class="figure-container">
@@ -164,11 +168,10 @@ export default {
       false
     );
 
-    document.getElementById("topButton").addEventListener("click",
-    function() {
+    document.getElementById("topButton").addEventListener("click", function() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
-    })
+    });
 
     // document.addEventListener("scroll", this.handleScroll);
     this.changeVirus();

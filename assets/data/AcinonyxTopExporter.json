@@ -1,0 +1,27 @@
+[
+    {
+        "Country": "NA",
+        "Country_Full": "Nambia",
+        "Amount": 94
+    },
+    {
+        "Country": "ZA",
+        "Country_Full": "South Africa",
+        "Amount":47
+    },
+    {
+        "Country": "RU",
+        "Country_Full": "Serbia",
+        "Amount": 2
+    },
+    {
+        "Country": "NO",
+        "Country_Full": "Norway",
+        "Amount": 2
+    },
+    {
+        "Country": "US",
+        "Country_Full": "United States",
+        "Amount": 1
+    }
+]

@@ -12,7 +12,6 @@
           fill="white"
           text-anchor="middle"
         >{{family.familyName}}</text>
-        <!-- <rect :width="200" :height="200" fill="none" stroke="white" /> -->
         <g
           v-for="(genus, g) in family.allGenus"
           :id="genus.genusName"
@@ -177,5 +176,9 @@ p {
 
 .foundVirus {
   font-size: 14px;
+}
+
+.clustercontainer {
+  padding-left: 200px;
 }
 </style>
