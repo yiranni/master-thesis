@@ -1,73 +1,25 @@
 {
-    "SARS": {
-        "Felidae": {
+    "Rift Valley Fever Virus": {
+        "Bovidae": {
             "genus": [
                 {
-                    "genusName": "Acinonyx",
+                    "genusName": "Gazella",
+                    "commonName": "Gazelle",
                     "direct": false
                 },
                 {
-                    "genusName": "Caracal",
-                    "direct": false
-                },
-                {
-                    "genusName": "Felis",
+                    "genusName": "Hippotragus",
+                    "commonName": "Antelope",
                     "direct": true
                 },
                 {
-                    "genusName": "Leptailurus",
+                    "genusName": "Oryx",
+                    "commonName": "Oryx",
                     "direct": false
                 },
                 {
-                    "genusName": "Lynx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Otocolobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Panthera",
-                    "direct": false
-                },
-                {
-                    "genusName": "Prionailurus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Puma",
-                    "direct": false
-                }
-            ]
-        },
-        "Mustelidae": {
-            "genus": [
-                {
-                    "genusName": "Aonyx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Eira",
-                    "direct": false
-                },
-                {
-                    "genusName": "Galictis",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lutra",
-                    "direct": false
-                },
-                {
-                    "genusName": "Mellivora",
-                    "direct": false
-                },
-                {
-                    "genusName": "Mustela",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pteronura",
+                    "genusName": "Cephalophus",
+                    "commonName": "Duiker antelope",
                     "direct": false
                 }
             ]
@@ -75,39 +27,76 @@
         "Canidae": {
             "genus": [
                 {
-                    "genusName": "Canis",
-                    "direct": false
-                },
-                {
-                    "genusName": "Cerdocyon",
-                    "direct": false
-                },
-                {
                     "genusName": "Speothos",
+                    "commonName": "Canine",
                     "direct": false
+                },
+                {
+                    "genusName": "Canis",
+                    "commonName": "Canine",
+                    "direct": true
                 },
                 {
                     "genusName": "Vulpes",
+                    "commonName": "Fox",
+                    "direct": false
+                }
+            ]
+        },
+        "Equidae": {
+            "genus": [
+                {
+                    "genusName": "Equus",
+                    "commonName": "Horse ",
                     "direct": true
                 }
             ]
         },
-        "Viverridae": {
+        "Felidae": {
             "genus": [
                 {
-                    "genusName": "Civettictis",
+                    "genusName": "Acinonyx",
+                    "commonName": "Cheetah ",
                     "direct": false
                 },
                 {
-                    "genusName": "Cryptoprocta",
+                    "genusName": "Felis",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lynx",
+                    "commonName": "Cat",
                     "direct": false
                 },
                 {
-                    "genusName": "Fossa",
+                    "genusName": "Panthera",
+                    "commonName": "Great Cats",
+                    "direct": true
+                },
+                {
+                    "genusName": "Prionailurus",
+                    "commonName": "Feline",
                     "direct": false
                 },
                 {
-                    "genusName": "Paradoxurus",
+                    "genusName": "Caracal",
+                    "commonName": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genusName": "Leptailurus",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Otocolobus",
+                    "commonName": "Pallas Cat ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Puma",
+                    "commonName": "Feline",
                     "direct": false
                 }
             ]
@@ -116,18 +105,12 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Suidae": {
-            "genus": [
-                {
-                    "genusName": "Potamochoerus",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
@@ -136,80 +119,109 @@
             "genus": [
                 {
                     "genusName": "Pteropus",
-                    "direct": false
-                }
-            ]
-        }
-    },
-    "H5N1": {
-        "Felidae": {
-            "genus": [
-                {
-                    "genusName": "Acinonyx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Caracal",
-                    "direct": false
-                },
-                {
-                    "genusName": "Felis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Leptailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lynx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Otocolobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Panthera",
-                    "direct": true
-                },
-                {
-                    "genusName": "Prionailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Puma",
+                    "commonName": "Bat",
                     "direct": false
                 }
             ]
         },
-        "Mustelidae": {
+        "Rhinocerotidae": {
             "genus": [
                 {
-                    "genusName": "Aonyx",
+                    "genusName": "Ceratotherium",
+                    "commonName": "White Rhinoceros",
+                    "direct": true
+                }
+            ]
+        }
+    },
+    "Ebola Virus": {
+        "Bovidae": {
+            "genus": [
+                {
+                    "genusName": "Gazella",
+                    "commonName": "Gazelle",
                     "direct": false
                 },
                 {
-                    "genusName": "Eira",
+                    "genusName": "Hippotragus",
+                    "commonName": "Antelope",
                     "direct": false
                 },
                 {
-                    "genusName": "Galictis",
+                    "genusName": "Oryx",
+                    "commonName": "Oryx",
                     "direct": false
                 },
                 {
-                    "genusName": "Lutra",
+                    "genusName": "Cephalophus",
+                    "commonName": "Duiker antelope",
+                    "direct": true
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genusName": "Cercopithecus",
+                    "commonName": "Guenon",
                     "direct": false
                 },
                 {
-                    "genusName": "Mellivora",
+                    "genusName": "Macaca",
+                    "commonName": "Monkey",
+                    "direct": true
+                },
+                {
+                    "genusName": "Chlorocebus",
+                    "commonName": "Monkey",
                     "direct": false
                 },
                 {
-                    "genusName": "Mustela",
+                    "genusName": "Colobus",
+                    "commonName": "Monkey ",
                     "direct": false
                 },
                 {
-                    "genusName": "Pteronura",
+                    "genusName": "Lophocebus",
+                    "commonName": "Mangabey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Papio",
+                    "commonName": "Baboon",
+                    "direct": true
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "commonName": "Langur",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": true
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genusName": "Pteropus",
+                    "commonName": "Bat",
                     "direct": false
                 }
             ]
@@ -218,266 +230,33 @@
             "genus": [
                 {
                     "genusName": "Aotus",
-                    "direct": false
-                }
-            ]
-        },
-        "Canidae": {
-            "genus": [
-                {
-                    "genusName": "Canis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cerdocyon",
-                    "direct": false
-                },
-                {
-                    "genusName": "Speothos",
-                    "direct": false
-                },
-                {
-                    "genusName": "Vulpes",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercopithecidae": {
-            "genus": [
-                {
-                    "genusName": "Cercopithecus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Chlorocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Colobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lophocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Macaca",
-                    "direct": true
-                },
-                {
-                    "genusName": "Papio",
-                    "direct": false
-                },
-                {
-                    "genusName": "Pygathrix",
-                    "direct": false
-                },
-                {
-                    "genusName": "Trachypithecus",
-                    "direct": false
-                }
-            ]
-        },
-        "Viverridae": {
-            "genus": [
-                {
-                    "genusName": "Civettictis",
-                    "direct": false
-                },
-                {
-                    "genusName": "Cryptoprocta",
-                    "direct": false
-                },
-                {
-                    "genusName": "Fossa",
-                    "direct": false
-                },
-                {
-                    "genusName": "Paradoxurus",
-                    "direct": false
-                }
-            ]
-        },
-        "Hominidae": {
-            "genus": [
-                {
-                    "genusName": "Pan",
-                    "direct": false
-                },
-                {
-                    "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Suidae": {
-            "genus": [
-                {
-                    "genusName": "Potamochoerus",
-                    "direct": false
-                }
-            ]
-        }
-    },
-    "Rift Valley Fever Virus": {
-        "Felidae": {
-            "genus": [
-                {
-                    "genusName": "Acinonyx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Caracal",
-                    "direct": false
-                },
-                {
-                    "genusName": "Felis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Leptailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lynx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Otocolobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Panthera",
-                    "direct": true
-                },
-                {
-                    "genusName": "Prionailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Puma",
-                    "direct": false
-                }
-            ]
-        },
-        "Canidae": {
-            "genus": [
-                {
-                    "genusName": "Canis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cerdocyon",
-                    "direct": false
-                },
-                {
-                    "genusName": "Speothos",
-                    "direct": false
-                },
-                {
-                    "genusName": "Vulpes",
-                    "direct": false
-                }
-            ]
-        },
-        "Bovidae": {
-            "genus": [
-                {
-                    "genusName": "Cephalophus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Damaliscus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Gazella",
-                    "direct": false
-                },
-                {
-                    "genusName": "Hippotragus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Ovis",
-                    "direct": true
-                }
-            ]
-        },
-        "Rhinocerotidae": {
-            "genus": [
-                {
-                    "genusName": "Ceratotherium ",
-                    "direct": true
-                }
-            ]
-        },
-        "Equidae": {
-            "genus": [
-                {
-                    "genusName": "Equus",
-                    "direct": true
-                }
-            ]
-        },
-        "Hominidae": {
-            "genus": [
-                {
-                    "genusName": "Pan",
-                    "direct": false
-                },
-                {
-                    "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Pteropodidae": {
-            "genus": [
-                {
-                    "genusName": "Pteropus",
+                    "commonName": "Monkey",
                     "direct": false
                 }
             ]
         }
     },
     "Crimean Congo Hemorrhagic Fever Virus": {
-        "Felidae": {
+        "Bovidae": {
             "genus": [
                 {
-                    "genusName": "Acinonyx",
+                    "genusName": "Gazella",
+                    "commonName": "Gazelle",
                     "direct": false
                 },
                 {
-                    "genusName": "Caracal",
-                    "direct": false
-                },
-                {
-                    "genusName": "Felis",
+                    "genusName": "Hippotragus",
+                    "commonName": "Antelope",
                     "direct": true
                 },
                 {
-                    "genusName": "Leptailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lynx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Otocolobus",
+                    "genusName": "Oryx",
+                    "commonName": "Oryx",
                     "direct": true
                 },
                 {
-                    "genusName": "Panthera",
-                    "direct": false
-                },
-                {
-                    "genusName": "Prionailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Puma",
+                    "genusName": "Cephalophus",
+                    "commonName": "Duiker antelope",
                     "direct": false
                 }
             ]
@@ -485,72 +264,19 @@
         "Canidae": {
             "genus": [
                 {
-                    "genusName": "Canis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cerdocyon",
-                    "direct": false
-                },
-                {
                     "genusName": "Speothos",
+                    "commonName": "Canine",
                     "direct": false
+                },
+                {
+                    "genusName": "Canis",
+                    "commonName": "Canine",
+                    "direct": true
                 },
                 {
                     "genusName": "Vulpes",
+                    "commonName": "Fox",
                     "direct": true
-                }
-            ]
-        },
-        "Bovidae": {
-            "genus": [
-                {
-                    "genusName": "Cephalophus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Damaliscus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Gazella",
-                    "direct": false
-                },
-                {
-                    "genusName": "Hippotragus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Ovis",
-                    "direct": true
-                }
-            ]
-        },
-        "Rhinocerotidae": {
-            "genus": [
-                {
-                    "genusName": "Ceratotherium ",
-                    "direct": true
-                }
-            ]
-        },
-        "Viverridae": {
-            "genus": [
-                {
-                    "genusName": "Civettictis",
-                    "direct": false
-                },
-                {
-                    "genusName": "Cryptoprocta",
-                    "direct": false
-                },
-                {
-                    "genusName": "Fossa",
-                    "direct": false
-                },
-                {
-                    "genusName": "Paradoxurus",
-                    "direct": false
                 }
             ]
         },
@@ -558,10 +284,12 @@
             "genus": [
                 {
                     "genusName": "Elephas",
+                    "commonName": "Asian Elephant",
                     "direct": false
                 },
                 {
                     "genusName": "Loxodonta",
+                    "commonName": "African Elephant ",
                     "direct": true
                 }
             ]
@@ -570,6 +298,214 @@
             "genus": [
                 {
                     "genusName": "Equus",
+                    "commonName": "Horse ",
+                    "direct": true
+                }
+            ]
+        },
+        "Felidae": {
+            "genus": [
+                {
+                    "genusName": "Acinonyx",
+                    "commonName": "Cheetah ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Felis",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lynx",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Panthera",
+                    "commonName": "Great Cats",
+                    "direct": false
+                },
+                {
+                    "genusName": "Prionailurus",
+                    "commonName": "Feline",
+                    "direct": false
+                },
+                {
+                    "genusName": "Caracal",
+                    "commonName": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genusName": "Leptailurus",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Otocolobus",
+                    "commonName": "Pallas Cat ",
+                    "direct": true
+                },
+                {
+                    "genusName": "Puma",
+                    "commonName": "Feline",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Rhinocerotidae": {
+            "genus": [
+                {
+                    "genusName": "Ceratotherium",
+                    "commonName": "White Rhinoceros",
+                    "direct": true
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genusName": "Cryptoprocta",
+                    "commonName": "Fosa",
+                    "direct": false
+                },
+                {
+                    "genusName": "Fossa",
+                    "commonName": "Malagasy Civet ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Civettictis",
+                    "commonName": "African Civet",
+                    "direct": false
+                },
+                {
+                    "genusName": "Paradoxurus",
+                    "commonName": "Palm Civet",
+                    "direct": false
+                }
+            ]
+        },
+        "Hystricidae": {
+            "genus": [
+                {
+                    "genusName": "Hystrix",
+                    "commonName": "African-Porcupine",
+                    "direct": true
+                }
+            ]
+        }
+    },
+    "Tick-Borne Encephalitis Virus": {
+        "Bovidae": {
+            "genus": [
+                {
+                    "genusName": "Gazella",
+                    "commonName": "Gazelle",
+                    "direct": false
+                },
+                {
+                    "genusName": "Oryx",
+                    "commonName": "Oryx",
+                    "direct": false
+                },
+                {
+                    "genusName": "Cephalophus",
+                    "commonName": "Duiker antelope",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genusName": "Pteropus",
+                    "commonName": "Bat",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Venezuelan Equine Encephalitis Virus": {
+        "Bovidae": {
+            "genus": [
+                {
+                    "genusName": "Gazella",
+                    "commonName": "Gazelle",
+                    "direct": false
+                },
+                {
+                    "genusName": "Oryx",
+                    "commonName": "Oryx",
+                    "direct": false
+                },
+                {
+                    "genusName": "Cephalophus",
+                    "commonName": "Duiker antelope",
+                    "direct": false
+                }
+            ]
+        },
+        "Canidae": {
+            "genus": [
+                {
+                    "genusName": "Speothos",
+                    "commonName": "Canine",
+                    "direct": false
+                },
+                {
+                    "genusName": "Canis",
+                    "commonName": "Canine",
+                    "direct": true
+                },
+                {
+                    "genusName": "Vulpes",
+                    "commonName": "Fox",
+                    "direct": false
+                }
+            ]
+        },
+        "Delphinidae": {
+            "genus": [
+                {
+                    "genusName": "Tursiops",
+                    "commonName": "Dolphin",
+                    "direct": false
+                }
+            ]
+        },
+        "Equidae": {
+            "genus": [
+                {
+                    "genusName": "Equus",
+                    "commonName": "Horse ",
                     "direct": true
                 }
             ]
@@ -578,132 +514,38 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Suidae": {
-            "genus": [
-                {
-                    "genusName": "Potamochoerus",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
         }
     },
     "Rabies Virus": {
-        "Felidae": {
+        "Bovidae": {
             "genus": [
                 {
-                    "genusName": "Acinonyx",
-                    "direct": true
-                },
-                {
-                    "genusName": "Caracal",
-                    "direct": true
-                },
-                {
-                    "genusName": "Felis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Leptailurus",
+                    "genusName": "Gazella",
+                    "commonName": "Gazelle",
                     "direct": false
                 },
                 {
-                    "genusName": "Lynx",
+                    "genusName": "Hippotragus",
+                    "commonName": "Antelope",
                     "direct": true
                 },
                 {
-                    "genusName": "Otocolobus",
+                    "genusName": "Oryx",
+                    "commonName": "Oryx",
                     "direct": false
                 },
                 {
-                    "genusName": "Panthera",
-                    "direct": false
-                },
-                {
-                    "genusName": "Prionailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Puma",
-                    "direct": true
-                }
-            ]
-        },
-        "Ursidae": {
-            "genus": [
-                {
-                    "genusName": "Ailuropoda ",
-                    "direct": false
-                },
-                {
-                    "genusName": "Melursus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Ursus",
-                    "direct": true
-                }
-            ]
-        },
-        "Mustelidae": {
-            "genus": [
-                {
-                    "genusName": "Aonyx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Eira",
-                    "direct": true
-                },
-                {
-                    "genusName": "Galictis",
-                    "direct": false
-                },
-                {
-                    "genusName": "Mellivora",
-                    "direct": true
-                },
-                {
-                    "genusName": "Mustela",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pteronura",
-                    "direct": false
-                }
-            ]
-        },
-        "Aotidae": {
-            "genus": [
-                {
-                    "genusName": "Aotus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cebidae": {
-            "genus": [
-                {
-                    "genusName": "Callithrix",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Leontopithecus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Saguinus",
+                    "genusName": "Cephalophus",
+                    "commonName": "Duiker antelope",
                     "direct": false
                 }
             ]
@@ -711,51 +553,47 @@
         "Canidae": {
             "genus": [
                 {
-                    "genusName": "Canis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cerdocyon",
-                    "direct": true
-                },
-                {
                     "genusName": "Speothos",
+                    "commonName": "Canine",
                     "direct": false
+                },
+                {
+                    "genusName": "Canis",
+                    "commonName": "Canine",
+                    "direct": true
                 },
                 {
                     "genusName": "Vulpes",
+                    "commonName": "Fox",
                     "direct": true
                 }
             ]
         },
-        "Bovidae": {
+        "Cebidae": {
             "genus": [
                 {
-                    "genusName": "Cephalophus",
+                    "genusName": "Leontopithecus",
+                    "commonName": "Monkey",
                     "direct": false
                 },
                 {
-                    "genusName": "Damaliscus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Gazella",
+                    "genusName": "Saguinus",
+                    "commonName": "Tamarin",
                     "direct": false
                 },
                 {
-                    "genusName": "Hippotragus",
+                    "genusName": "Callithrix",
+                    "commonName": "Monkey",
                     "direct": true
                 },
                 {
-                    "genusName": "Ovis",
-                    "direct": true
-                }
-            ]
-        },
-        "Delphinidae": {
-            "genus": [
+                    "genusName": "Cebus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
                 {
-                    "genusName": "Cephalorhynchus",
+                    "genusName": "Saimiri",
+                    "commonName": "Squirrel Monkey",
                     "direct": false
                 }
             ]
@@ -764,34 +602,42 @@
             "genus": [
                 {
                     "genusName": "Cercopithecus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Chlorocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Colobus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Lophocebus",
+                    "commonName": "Guenon",
                     "direct": false
                 },
                 {
                     "genusName": "Macaca",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Chlorocebus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Colobus",
+                    "commonName": "Monkey ",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lophocebus",
+                    "commonName": "Mangabey",
                     "direct": false
                 },
                 {
                     "genusName": "Papio",
-                    "direct": false
-                },
-                {
-                    "genusName": "Pygathrix",
+                    "commonName": "Baboon",
                     "direct": false
                 },
                 {
                     "genusName": "Trachypithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "commonName": "Langur",
                     "direct": false
                 }
             ]
@@ -800,46 +646,16 @@
             "genus": [
                 {
                     "genusName": "Cervus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Odocoileus",
+                    "commonName": "Deer",
                     "direct": true
                 }
             ]
         },
-        "Dasypodidae": {
+        "Delphinidae": {
             "genus": [
                 {
-                    "genusName": "Chaetophractus",
-                    "direct": false
-                }
-            ]
-        },
-        "Chinchillidae": {
-            "genus": [
-                {
-                    "genusName": "Chinchilla",
-                    "direct": true
-                }
-            ]
-        },
-        "Viverridae": {
-            "genus": [
-                {
-                    "genusName": "Civettictis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cryptoprocta",
-                    "direct": false
-                },
-                {
-                    "genusName": "Fossa",
-                    "direct": false
-                },
-                {
-                    "genusName": "Paradoxurus",
+                    "genusName": "Tursiops",
+                    "commonName": "Dolphin",
                     "direct": false
                 }
             ]
@@ -848,10 +664,12 @@
             "genus": [
                 {
                     "genusName": "Elephas",
+                    "commonName": "Asian Elephant",
                     "direct": true
                 },
                 {
                     "genusName": "Loxodonta",
+                    "commonName": "African Elephant ",
                     "direct": true
                 }
             ]
@@ -860,7 +678,175 @@
             "genus": [
                 {
                     "genusName": "Equus",
+                    "commonName": "Horse ",
                     "direct": true
+                }
+            ]
+        },
+        "Felidae": {
+            "genus": [
+                {
+                    "genusName": "Acinonyx",
+                    "commonName": "Cheetah ",
+                    "direct": true
+                },
+                {
+                    "genusName": "Felis",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lynx",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Panthera",
+                    "commonName": "Great Cats",
+                    "direct": false
+                },
+                {
+                    "genusName": "Prionailurus",
+                    "commonName": "Feline",
+                    "direct": false
+                },
+                {
+                    "genusName": "Caracal",
+                    "commonName": "Caracal",
+                    "direct": true
+                },
+                {
+                    "genusName": "Leptailurus",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Otocolobus",
+                    "commonName": "Pallas Cat ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Puma",
+                    "commonName": "Feline",
+                    "direct": true
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": true
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genusName": "Mustela",
+                    "commonName": "Weasel",
+                    "direct": true
+                },
+                {
+                    "genusName": "Pteronura",
+                    "commonName": "Otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Aonyx",
+                    "commonName": "Clawless otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Eira",
+                    "commonName": "Tayra",
+                    "direct": true
+                },
+                {
+                    "genusName": "Galictis",
+                    "commonName": "Grison",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mellivora",
+                    "commonName": "Badger",
+                    "direct": true
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genusName": "Pteropus",
+                    "commonName": "Bat",
+                    "direct": true
+                }
+            ]
+        },
+        "Ursidae": {
+            "genus": [
+                {
+                    "genusName": "Ailuropoda",
+                    "commonName": "Giant Panda ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Melursus",
+                    "commonName": "Sloth Bear ",
+                    "direct": true
+                },
+                {
+                    "genusName": "Ursus",
+                    "commonName": "Bear",
+                    "direct": true
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genusName": "Aotus",
+                    "commonName": "Monkey",
+                    "direct": false
+                }
+            ]
+        },
+        "Dasypodidae": {
+            "genus": [
+                {
+                    "genusName": "Chaetophractus",
+                    "commonName": "Armadillo",
+                    "direct": false
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genusName": "Cryptoprocta",
+                    "commonName": "Fosa",
+                    "direct": false
+                },
+                {
+                    "genusName": "Fossa",
+                    "commonName": "Malagasy Civet ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Civettictis",
+                    "commonName": "African Civet",
+                    "direct": true
+                },
+                {
+                    "genusName": "Paradoxurus",
+                    "commonName": "Palm Civet",
+                    "direct": false
                 }
             ]
         },
@@ -868,14 +854,7 @@
             "genus": [
                 {
                     "genusName": "Galago",
-                    "direct": true
-                }
-            ]
-        },
-        "Herpestidae": {
-            "genus": [
-                {
-                    "genusName": "Herpestes",
+                    "commonName": "Galago",
                     "direct": true
                 }
             ]
@@ -884,15 +863,8 @@
             "genus": [
                 {
                     "genusName": "Hyaena",
+                    "commonName": "Hyena",
                     "direct": true
-                }
-            ]
-        },
-        "Phocidae": {
-            "genus": [
-                {
-                    "genusName": "Mirounga",
-                    "direct": false
                 }
             ]
         },
@@ -900,100 +872,91 @@
             "genus": [
                 {
                     "genusName": "Nasua",
+                    "commonName": "Coati",
                     "direct": true
                 },
                 {
                     "genusName": "Potos",
+                    "commonName": "Kinkajou",
                     "direct": false
                 }
             ]
         },
-        "Hominidae": {
+        "Hystricidae": {
             "genus": [
                 {
-                    "genusName": "Pan",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Suidae": {
-            "genus": [
-                {
-                    "genusName": "Potamochoerus",
-                    "direct": false
-                }
-            ]
-        },
-        "Pteropodidae": {
-            "genus": [
-                {
-                    "genusName": "Pteropus",
+                    "genusName": "Hystrix",
+                    "commonName": "African-Porcupine",
                     "direct": true
                 }
             ]
         }
     },
-    "Nipah Virus": {
-        "Felidae": {
-            "genus": [
-                {
-                    "genusName": "Acinonyx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Caracal",
-                    "direct": false
-                },
-                {
-                    "genusName": "Felis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Leptailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lynx",
-                    "direct": false
-                },
-                {
-                    "genusName": "Otocolobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Panthera",
-                    "direct": false
-                },
-                {
-                    "genusName": "Prionailurus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Puma",
-                    "direct": false
-                }
-            ]
-        },
+    "SARS": {
         "Canidae": {
             "genus": [
                 {
-                    "genusName": "Canis",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cerdocyon",
+                    "genusName": "Speothos",
+                    "commonName": "Canine",
                     "direct": false
                 },
                 {
-                    "genusName": "Speothos",
+                    "genusName": "Canis",
+                    "commonName": "Canine",
                     "direct": false
                 },
                 {
                     "genusName": "Vulpes",
+                    "commonName": "Fox",
+                    "direct": true
+                }
+            ]
+        },
+        "Felidae": {
+            "genus": [
+                {
+                    "genusName": "Acinonyx",
+                    "commonName": "Cheetah ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Felis",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lynx",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Panthera",
+                    "commonName": "Great Cats",
+                    "direct": false
+                },
+                {
+                    "genusName": "Prionailurus",
+                    "commonName": "Feline",
+                    "direct": true
+                },
+                {
+                    "genusName": "Caracal",
+                    "commonName": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genusName": "Leptailurus",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Otocolobus",
+                    "commonName": "Pallas Cat ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Puma",
+                    "commonName": "Feline",
                     "direct": false
                 }
             ]
@@ -1002,10 +965,51 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genusName": "Lutra",
+                    "commonName": "Otter ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mustela",
+                    "commonName": "Weasel",
+                    "direct": true
+                },
+                {
+                    "genusName": "Pteronura",
+                    "commonName": "Otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Aonyx",
+                    "commonName": "Clawless otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Eira",
+                    "commonName": "Tayra",
+                    "direct": false
+                },
+                {
+                    "genusName": "Galictis",
+                    "commonName": "Grison",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mellivora",
+                    "commonName": "Badger",
                     "direct": false
                 }
             ]
@@ -1014,64 +1018,52 @@
             "genus": [
                 {
                     "genusName": "Pteropus",
-                    "direct": true
+                    "commonName": "Bat",
+                    "direct": false
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genusName": "Cryptoprocta",
+                    "commonName": "Fosa",
+                    "direct": false
+                },
+                {
+                    "genusName": "Fossa",
+                    "commonName": "Malagasy Civet ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Civettictis",
+                    "commonName": "African Civet",
+                    "direct": false
+                },
+                {
+                    "genusName": "Paradoxurus",
+                    "commonName": "Palm Civet",
+                    "direct": false
                 }
             ]
         }
     },
-    "Yellow Fever Virus": {
-        "Mustelidae": {
+    "H5N1": {
+        "Canidae": {
             "genus": [
                 {
-                    "genusName": "Aonyx",
+                    "genusName": "Speothos",
+                    "commonName": "Canine",
                     "direct": false
                 },
                 {
-                    "genusName": "Eira",
+                    "genusName": "Canis",
+                    "commonName": "Canine",
                     "direct": true
                 },
                 {
-                    "genusName": "Galictis",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lutra",
-                    "direct": false
-                },
-                {
-                    "genusName": "Mellivora",
-                    "direct": false
-                },
-                {
-                    "genusName": "Mustela",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pteronura",
-                    "direct": false
-                }
-            ]
-        },
-        "Aotidae": {
-            "genus": [
-                {
-                    "genusName": "Aotus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cebidae": {
-            "genus": [
-                {
-                    "genusName": "Callithrix",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cebus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Leontopithecus",
+                    "genusName": "Vulpes",
+                    "commonName": "Fox",
                     "direct": false
                 }
             ]
@@ -1080,51 +1072,412 @@
             "genus": [
                 {
                     "genusName": "Cercopithecus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Chlorocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Colobus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Lophocebus",
+                    "commonName": "Guenon",
                     "direct": false
                 },
                 {
                     "genusName": "Macaca",
+                    "commonName": "Monkey",
                     "direct": true
                 },
                 {
-                    "genusName": "Papio",
+                    "genusName": "Chlorocebus",
+                    "commonName": "Monkey",
                     "direct": false
                 },
                 {
-                    "genusName": "Pygathrix",
+                    "genusName": "Colobus",
+                    "commonName": "Monkey ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Lophocebus",
+                    "commonName": "Mangabey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Papio",
+                    "commonName": "Baboon",
                     "direct": false
                 },
                 {
                     "genusName": "Trachypithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "commonName": "Langur",
                     "direct": false
                 }
             ]
         },
-        "Megalonychidae": {
+        "Felidae": {
             "genus": [
                 {
-                    "genusName": "Choloepus",
+                    "genusName": "Acinonyx",
+                    "commonName": "Cheetah ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Felis",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lynx",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Panthera",
+                    "commonName": "Great Cats",
+                    "direct": true
+                },
+                {
+                    "genusName": "Prionailurus",
+                    "commonName": "Feline",
+                    "direct": false
+                },
+                {
+                    "genusName": "Caracal",
+                    "commonName": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genusName": "Leptailurus",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Otocolobus",
+                    "commonName": "Pallas Cat ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Puma",
+                    "commonName": "Feline",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genusName": "Lutra",
+                    "commonName": "Otter ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mustela",
+                    "commonName": "Weasel",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pteronura",
+                    "commonName": "Otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Aonyx",
+                    "commonName": "Clawless otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Eira",
+                    "commonName": "Tayra",
+                    "direct": false
+                },
+                {
+                    "genusName": "Galictis",
+                    "commonName": "Grison",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mellivora",
+                    "commonName": "Badger",
+                    "direct": false
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genusName": "Aotus",
+                    "commonName": "Monkey",
+                    "direct": false
+                }
+            ]
+        },
+        "Viverridae": {
+            "genus": [
+                {
+                    "genusName": "Cryptoprocta",
+                    "commonName": "Fosa",
+                    "direct": false
+                },
+                {
+                    "genusName": "Fossa",
+                    "commonName": "Malagasy Civet ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Civettictis",
+                    "commonName": "African Civet",
+                    "direct": false
+                },
+                {
+                    "genusName": "Paradoxurus",
+                    "commonName": "Palm Civet",
+                    "direct": false
+                }
+            ]
+        }
+    },
+    "Nipah Virus": {
+        "Canidae": {
+            "genus": [
+                {
+                    "genusName": "Speothos",
+                    "commonName": "Canine",
+                    "direct": false
+                },
+                {
+                    "genusName": "Canis",
+                    "commonName": "Canine",
+                    "direct": true
+                },
+                {
+                    "genusName": "Vulpes",
+                    "commonName": "Fox",
+                    "direct": false
+                }
+            ]
+        },
+        "Felidae": {
+            "genus": [
+                {
+                    "genusName": "Acinonyx",
+                    "commonName": "Cheetah ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Felis",
+                    "commonName": "Cat",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lynx",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Panthera",
+                    "commonName": "Great Cats",
+                    "direct": false
+                },
+                {
+                    "genusName": "Prionailurus",
+                    "commonName": "Feline",
+                    "direct": false
+                },
+                {
+                    "genusName": "Caracal",
+                    "commonName": "Caracal",
+                    "direct": false
+                },
+                {
+                    "genusName": "Leptailurus",
+                    "commonName": "Cat",
+                    "direct": false
+                },
+                {
+                    "genusName": "Otocolobus",
+                    "commonName": "Pallas Cat ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Puma",
+                    "commonName": "Feline",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Pteropodidae": {
+            "genus": [
+                {
+                    "genusName": "Pteropus",
+                    "commonName": "Bat",
+                    "direct": true
+                }
+            ]
+        }
+    },
+    "Yellow Fever Virus": {
+        "Cebidae": {
+            "genus": [
+                {
+                    "genusName": "Leontopithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Callithrix",
+                    "commonName": "Monkey",
+                    "direct": true
+                },
+                {
+                    "genusName": "Cebus",
+                    "commonName": "Monkey",
+                    "direct": true
+                },
+                {
+                    "genusName": "Saimiri",
+                    "commonName": "Squirrel Monkey",
                     "direct": true
                 }
             ]
         },
-        "Dasyproctidae": {
+        "Cercopithecidae": {
             "genus": [
                 {
-                    "genusName": "Dasyprocta",
+                    "genusName": "Cercopithecus",
+                    "commonName": "Guenon",
                     "direct": true
+                },
+                {
+                    "genusName": "Macaca",
+                    "commonName": "Monkey",
+                    "direct": true
+                },
+                {
+                    "genusName": "Chlorocebus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Colobus",
+                    "commonName": "Monkey ",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lophocebus",
+                    "commonName": "Mangabey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Papio",
+                    "commonName": "Baboon",
+                    "direct": false
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "commonName": "Langur",
+                    "direct": false
+                }
+            ]
+        },
+        "Delphinidae": {
+            "genus": [
+                {
+                    "genusName": "Tursiops",
+                    "commonName": "Dolphin",
+                    "direct": false
+                }
+            ]
+        },
+        "Hominidae": {
+            "genus": [
+                {
+                    "genusName": "Pan",
+                    "commonName": "Chimpanzee",
+                    "direct": true
+                },
+                {
+                    "genusName": "Pongo",
+                    "commonName": "Orangutan",
+                    "direct": false
+                }
+            ]
+        },
+        "Mustelidae": {
+            "genus": [
+                {
+                    "genusName": "Lutra",
+                    "commonName": "Otter ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mustela",
+                    "commonName": "Weasel",
+                    "direct": true
+                },
+                {
+                    "genusName": "Pteronura",
+                    "commonName": "Otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Aonyx",
+                    "commonName": "Clawless otter",
+                    "direct": false
+                },
+                {
+                    "genusName": "Eira",
+                    "commonName": "Tayra",
+                    "direct": true
+                },
+                {
+                    "genusName": "Galictis",
+                    "commonName": "Grison",
+                    "direct": false
+                },
+                {
+                    "genusName": "Mellivora",
+                    "commonName": "Badger",
+                    "direct": false
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genusName": "Aotus",
+                    "commonName": "Monkey",
+                    "direct": false
                 }
             ]
         },
@@ -1132,6 +1485,7 @@
             "genus": [
                 {
                     "genusName": "Galago",
+                    "commonName": "Galago",
                     "direct": true
                 }
             ]
@@ -1140,252 +1494,7 @@
             "genus": [
                 {
                     "genusName": "Myrmecophaga",
-                    "direct": false
-                },
-                {
-                    "genusName": "Tamandua",
-                    "direct": true
-                }
-            ]
-        },
-        "Hominidae": {
-            "genus": [
-                {
-                    "genusName": "Pan",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        }
-    },
-    "Marburg Virus": {
-        "Aotidae": {
-            "genus": [
-                {
-                    "genusName": "Aotus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercopithecidae": {
-            "genus": [
-                {
-                    "genusName": "Cercopithecus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Chlorocebus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Colobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lophocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Macaca",
-                    "direct": false
-                },
-                {
-                    "genusName": "Papio",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pygathrix",
-                    "direct": false
-                },
-                {
-                    "genusName": "Trachypithecus",
-                    "direct": false
-                }
-            ]
-        },
-        "Hominidae": {
-            "genus": [
-                {
-                    "genusName": "Pan",
-                    "direct": false
-                },
-                {
-                    "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Pteropodidae": {
-            "genus": [
-                {
-                    "genusName": "Pteropus",
-                    "direct": false
-                }
-            ]
-        }
-    },
-    "Ebola Virus": {
-        "Aotidae": {
-            "genus": [
-                {
-                    "genusName": "Aotus",
-                    "direct": false
-                }
-            ]
-        },
-        "Bovidae": {
-            "genus": [
-                {
-                    "genusName": "Cephalophus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Damaliscus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Gazella",
-                    "direct": false
-                },
-                {
-                    "genusName": "Hippotragus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Ovis",
-                    "direct": false
-                }
-            ]
-        },
-        "Cercopithecidae": {
-            "genus": [
-                {
-                    "genusName": "Cercopithecus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Chlorocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Colobus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Lophocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Macaca",
-                    "direct": true
-                },
-                {
-                    "genusName": "Papio",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pygathrix",
-                    "direct": false
-                },
-                {
-                    "genusName": "Trachypithecus",
-                    "direct": false
-                }
-            ]
-        },
-        "Hominidae": {
-            "genus": [
-                {
-                    "genusName": "Pan",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Suidae": {
-            "genus": [
-                {
-                    "genusName": "Potamochoerus",
-                    "direct": false
-                }
-            ]
-        },
-        "Pteropodidae": {
-            "genus": [
-                {
-                    "genusName": "Pteropus",
-                    "direct": false
-                }
-            ]
-        }
-    },
-    "Cercopithecine Herpes Virus": {
-        "Aotidae": {
-            "genus": [
-                {
-                    "genusName": "Aotus",
-                    "direct": false
-                }
-            ]
-        },
-        "Cebidae": {
-            "genus": [
-                {
-                    "genusName": "Cebus",
-                    "direct": true
-                }
-            ]
-        },
-        "Cercopithecidae": {
-            "genus": [
-                {
-                    "genusName": "Cercopithecus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Chlorocebus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Colobus",
-                    "direct": true
-                },
-                {
-                    "genusName": "Lophocebus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Macaca",
-                    "direct": true
-                },
-                {
-                    "genusName": "Papio",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pygathrix",
-                    "direct": false
-                },
-                {
-                    "genusName": "Trachypithecus",
-                    "direct": false
-                }
-            ]
-        },
-        "Hominidae": {
-            "genus": [
-                {
-                    "genusName": "Pan",
-                    "direct": true
-                },
-                {
-                    "genusName": "Pongo",
+                    "commonName": "Giant Anteater ",
                     "direct": false
                 }
             ]
@@ -1395,20 +1504,29 @@
         "Cebidae": {
             "genus": [
                 {
-                    "genusName": "Callithrix",
-                    "direct": true
-                },
-                {
-                    "genusName": "Cebus",
-                    "direct": false
-                },
-                {
                     "genusName": "Leontopithecus",
+                    "commonName": "Monkey",
                     "direct": true
                 },
                 {
                     "genusName": "Saguinus",
+                    "commonName": "Tamarin",
                     "direct": true
+                },
+                {
+                    "genusName": "Callithrix",
+                    "commonName": "Monkey",
+                    "direct": true
+                },
+                {
+                    "genusName": "Cebus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Saimiri",
+                    "commonName": "Squirrel Monkey",
+                    "direct": false
                 }
             ]
         },
@@ -1416,69 +1534,68 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
         }
     },
-    "Venezuelan Equine Encephalitis Virus": {
-        "Canidae": {
+    "Cercopithecine Herpes Virus": {
+        "Cebidae": {
             "genus": [
                 {
-                    "genusName": "Canis",
+                    "genusName": "Cebus",
+                    "commonName": "Monkey",
+                    "direct": true
+                }
+            ]
+        },
+        "Cercopithecidae": {
+            "genus": [
+                {
+                    "genusName": "Cercopithecus",
+                    "commonName": "Guenon",
+                    "direct": false
+                },
+                {
+                    "genusName": "Macaca",
+                    "commonName": "Monkey",
                     "direct": true
                 },
                 {
-                    "genusName": "Cerdocyon",
-                    "direct": false
-                },
-                {
-                    "genusName": "Speothos",
-                    "direct": false
-                },
-                {
-                    "genusName": "Vulpes",
-                    "direct": false
-                }
-            ]
-        },
-        "Bovidae": {
-            "genus": [
-                {
-                    "genusName": "Cephalophus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Damaliscus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Gazella",
-                    "direct": false
-                },
-                {
-                    "genusName": "Ovis",
-                    "direct": false
-                }
-            ]
-        },
-        "Delphinidae": {
-            "genus": [
-                {
-                    "genusName": "Cephalorhynchus",
-                    "direct": false
-                }
-            ]
-        },
-        "Equidae": {
-            "genus": [
-                {
-                    "genusName": "Equus",
+                    "genusName": "Chlorocebus",
+                    "commonName": "Monkey",
                     "direct": true
+                },
+                {
+                    "genusName": "Colobus",
+                    "commonName": "Monkey ",
+                    "direct": true
+                },
+                {
+                    "genusName": "Lophocebus",
+                    "commonName": "Mangabey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Papio",
+                    "commonName": "Baboon",
+                    "direct": true
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "commonName": "Langur",
+                    "direct": false
                 }
             ]
         },
@@ -1486,41 +1603,68 @@
             "genus": [
                 {
                     "genusName": "Pan",
-                    "direct": false
+                    "commonName": "Chimpanzee",
+                    "direct": true
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
         },
-        "Suidae": {
+        "Aotidae": {
             "genus": [
                 {
-                    "genusName": "Potamochoerus",
+                    "genusName": "Aotus",
+                    "commonName": "Monkey",
                     "direct": false
                 }
             ]
         }
     },
-    "Tick-Borne Encephalitis Virus": {
-        "Bovidae": {
+    "Marburg Virus": {
+        "Cercopithecidae": {
             "genus": [
                 {
-                    "genusName": "Cephalophus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Damaliscus",
-                    "direct": false
-                },
-                {
-                    "genusName": "Gazella",
-                    "direct": false
-                },
-                {
-                    "genusName": "Ovis",
+                    "genusName": "Cercopithecus",
+                    "commonName": "Guenon",
                     "direct": true
+                },
+                {
+                    "genusName": "Macaca",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Chlorocebus",
+                    "commonName": "Monkey",
+                    "direct": true
+                },
+                {
+                    "genusName": "Colobus",
+                    "commonName": "Monkey ",
+                    "direct": false
+                },
+                {
+                    "genusName": "Lophocebus",
+                    "commonName": "Mangabey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Papio",
+                    "commonName": "Baboon",
+                    "direct": true
+                },
+                {
+                    "genusName": "Trachypithecus",
+                    "commonName": "Monkey",
+                    "direct": false
+                },
+                {
+                    "genusName": "Pygathrix",
+                    "commonName": "Langur",
+                    "direct": false
                 }
             ]
         },
@@ -1528,10 +1672,12 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
@@ -1540,6 +1686,16 @@
             "genus": [
                 {
                     "genusName": "Pteropus",
+                    "commonName": "Bat",
+                    "direct": false
+                }
+            ]
+        },
+        "Aotidae": {
+            "genus": [
+                {
+                    "genusName": "Aotus",
+                    "commonName": "Monkey",
                     "direct": false
                 }
             ]
@@ -1550,10 +1706,12 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
@@ -1564,18 +1722,12 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
-                    "direct": false
-                }
-            ]
-        },
-        "Suidae": {
-            "genus": [
-                {
-                    "genusName": "Potamochoerus",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
@@ -1586,10 +1738,12 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]
@@ -1600,10 +1754,12 @@
             "genus": [
                 {
                     "genusName": "Pan",
+                    "commonName": "Chimpanzee",
                     "direct": false
                 },
                 {
                     "genusName": "Pongo",
+                    "commonName": "Orangutan",
                     "direct": false
                 }
             ]

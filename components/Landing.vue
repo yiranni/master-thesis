@@ -1,104 +1,187 @@
 <template>
   <div class="main">
     <div class="selectVirus">
-      <h1>
-        <b>Global Journey</b> of
-      </h1>
-      <h1>
-        <span>
-          <span class="select-wrapper">
-            <select id="virus-select" v-model="selected" @change="changeVirus">
-              <option
-                v-for="option in VirusOptions"
-                :key="option.value"
-                v-bind:value="{value: option.value}"
-                :virusName="option.value"
-              >{{ option.value }}</option>
-            </select>
-            <select id="width_tmp_select">
-              <option id="width_tmp_option"></option>
-            </select>
-          </span>
-        </span>
-      </h1>
-      <div class="content">
-        <p>
-          Many people come into contact with animals in their daily lives,
-          at home and away from home, in urban and rural areas.
-          Animals bring benefits to humans as food, livelihoods, and companionship.
-          A huge number of these animal species have been under international trading.
-        </p>
-        <p>Endangered animals are more vulnerable to be the target of wildlife trading because of their rarity which increased their economic value.</p>
-        <p>
-          <a href="#">CITES</a> prvides a legal framework for regulating international trade in sprecies threatened or potentially threatened by that trade. Under terms of CITES, Parties are required to submit annual reports to the CITES. In 2019,
-          <b>64148</b> species were reported by exporters, and
-          <b>61224</b> species were reported by importers.
-        </p>
-      </div>
-
-      <h2 class="sub-header">2019 Top 5 Import Countries</h2>
-      <SummaryImportCountry />
-      <h2 class="sub-header">2019 Top 5 Export Countries</h2>
-      <SummaryExportCountry />
-      <div class="content">
-        <p>Wildlife animal species are being traded in various forms, and the top 3 forms of trading in 2019 are skin, live, and leather.</p>
-      </div>
-      <h2 class="sub-header">2019 Global Wildlife Animal Trading Amount by Terms</h2>
-      <SummaryExportTerm />
-      <div class="content">
-        <p>
-          In 2019, trading data reported to CITES included
-          <b>251</b> threatened or potentially threatened wildlife animal species. Among these species, the following have the largest amount
-        </p>
-      </div>
-      <AnimalTradeQuantity />
-      <div class="content">
-        <p>
-          Wildlife animal trading is a multi-billion-dollar industry. Caimans, the species involed in the most numerous international trading, are most common traded in the form of skins. The latest
-          <a
-            href="#"
-          >price</a> of a Caiman skin is USD $270 for selling. 52918 Caimans traded in 2019 involved a cash flow of
-        </p>
-        <div class="highlighted">
-          <h3>52,918 X 270 = USD $14,287,860</h3>
-        </div>
-      </div>
-
-      <div class="content">
-        <p>
-          While wildlife animals trading brings profit to both parties, it could also carry harmful germs that spread to humans and cause illness,
-          even death, which are known as
-          <a
-            href="#"
-          >zoonotic diseases</a>.
-        </p>
-        <p>Zoonotic diseases are much more common than most people realize: within hundreds of emerging infectious diseases (EIDs) reported since 1940, 60.3% of EID events are caused by zoonotic pathogens, which have a non-human animal source.</p>
-
-        <p>
-          Zoonotic diseases are huge concern because they are usually not able to exterminate a disease if the reservoir host is a wildlife species.
-          For instance, plague, also known as the Black Death during the Middle Ages, killed millions of people during World Wars I and II. Even though it has been eradicated in most parts of the world with the help of modern medicine, it still occurs in the United States. This is not due to any public health related shortcomings but because this disease has spread to North American wildlife.
-        </p>
-        <p>
-          Let's take a look at the trading volum of wildlife animals that are reservoirs of
-          <b
-            class="selectedVirus"
-          >{{selected.value}}</b>
-          . (You can select a different virus other than {{selected.value}} at the
-          <button id="topButton">top</button> of the page.)
-        </p>
-      </div>
-      <TradeWithVirus :selectedVirus="selectedVirusName" />
-      <div class="content" style="padding-bottom: 200px">
-        <p>If you would like to know more infomation about zoonotic diseases and their reservoirs involved in international tradings. Let's go to Explore Dashboard!</p>
-      </div>
-      <!-- <Title v-bind:allFamily="allFamily" /> -->
+      <h1 style="font-size: 52px; text-shadow: 3px 3px #b60b0b">Global Journey of Zoonotic Diseases</h1>
+      <p
+        style="padding-top: 2em; font-style:oblique; color: #A6A3A3"
+      >An analysis of how global wildlife trading is related to the zoonotic diseases.</p>
     </div>
-    <div class="figure-container">
-      <div class="figure">
-        <Shadow width="400" transform="translate(100,660)" />
-        <Money width="160" transform="translate(-260,640)" />
-        <Virus width="400" transform="translate(110,200) " />
-        <Tail width="160" transform="translate(-50,200)" />
+    <div class="detail">
+      <div class="subheader">
+        <h2>COVID-19 Outbreak</h2>
+      </div>
+      <div class="content">
+        <p>
+          COVID-19 has caused a worldwide health pandemic. The origin of the outbreak is believed to have been in a wildlife market in
+          <b
+            style="color: #b60b0b;"
+          >Wuhan</b>, China, where sold live and dead wildlife and domestic animals for human consumption. The exact origins of COVID-19 are still unknown, but it is suspected to have originated in bats and may have jumped to humans via an intermediary wildlife animal species.
+        </p>
+      </div>
+      <div style="text-align: center; padding-top: 2rem">
+        <img src="../assets/ChinaMap.png" style="width: 30vw" />
+      </div>
+    </div>
+    <div class="detail">
+      <div class="subheader">
+        <h2>Reservoirs of Zoonotic Diseases</h2>
+      </div>
+      <div class="content">
+        <p>
+          The outbreak of COVID-19 brought the term
+          <b style="color: #b60b0b;">"zoonotic disease"</b> to the public. Zoonotic diseases. also known as zoonoses, are illnesses caused by germs that are passed between animals and human with non-human animal origin.
+        </p>
+        <p>Zoonotic diseases are much more common than people may realize: within hundreds of emerging infectious diseases (EIDs) reported since 1940, 60.3% of EID events are caused by zoonotic pathogens.</p>
+        <p>
+          Based on data on mammals traded during 2018 - 2019, a total of
+          <b
+            style="color: #b60b0b;"
+          >63,601</b> mammals in
+          <b style="color: #b60b0b;">125</b> genera were traded in the form of live animals.
+          <b style="color: #b60b0b;">66</b> genera involved in tradings could be potential reservoirs of
+          <b style="color: #b60b0b;">17</b> zoonotic diseases.
+        </p>
+        <p
+          style="padding-top: 2em; font-style:oblique; color: #A6A3A3; font-size: 14px; line-height: 16px"
+        >* direct: this genus is the reservoir of selected zoonotic disease; indirect: this genus is not but other genera in the same taxonomic family is the reservoir of selected zoonotic disease.</p>
+      </div>
+    </div>
+    <AllReservoirs />
+    <div class="subheader">
+      <h2 style>Tradings Included Zoonotic Disease Reservoirs</h2>
+    </div>
+    <div class="detail" style="padding-top: 0">
+      <div class="content">
+        <p
+          style="font-size: 32px; font-weight: bold; color: #b60b0b"
+        >Overview of Risk on Trading Mammals</p>
+        <p>Among all mammals traded as live during 2018 - 2019, almost every animal is a potential reservoir of any zoonotic diseases stated above.</p>
+      </div>
+    </div>
+
+    <TradeWithVirus />
+    <div class="detail" style="padding-top: 0">
+      <div class="content">
+        <p
+          style="font-size: 32px; font-weight: bold; color: #b60b0b"
+        >Breakdown into 17 Zoonotic Diseases</p>
+        
+      </div>
+    </div>
+    <TradingDetails />
+    <div class="detail" style="padding-top: 0">
+      <div class="content">
+        <p style="font-size: 32px; font-weight: bold; color: #b60b0b">Risk Assessment for Mammals</p>
+
+        <p>Based on 17 zoonotic diseases and their potential reservoirs provided above, I assessed the risky score of each genus by:</p>
+        <div>
+          <p><b style="color: #b60b0b;">+0</b> for not as reservoir of X disease</p>
+          <p><b style="color: #b60b0b;">+1</b> for as indirect reservoir of X disease</p>
+          <p><b style="color: #b60b0b;">+2</b> for as direct reservoir of X disease</p>
+        </div>
+        <p>The top 6 risky wildlife mammals are: Chimpanzee, Orangutan, Canine, Cat, Fox, and Monkey.</p>
+      </div>
+    </div>
+    <div style="align-items:center; justify-content: center; display: flex;">
+      <RiskAssessment />
+    </div>
+    <div class="detail">
+      <div class="subheader">
+        <h2>Demand for Wildlife Animals</h2>
+      </div>
+
+      <div class="content" style="padding-bottom: 4em">
+        <p>Suistainable, legal, and equitable wildlife trade could enhance rural livelihoods and conserve biological diversity. However, a decent amount of tradings are promoted by personal demand and under illegal trading. Illegal wildlife trading is even more dangerous on spreading zoonotic diseases due to the lack of disease testing.</p>
+        <p class="quote" style="padding-bottom: 4em; padding-top: 4em">
+          <span style="color: #b60b0b; font-size: 24px; font-weight: bold;">"</span> People in many countries are accustomed to a lifestyle which fuels demand for wildlife.
+          They expect access to a variety of seafoods, leather goods, timbers, medicinal ingredients and textiles. At the other end,
+          extreme poverty means some people see wildlife as valuable barter for trade.
+          <span
+            style="color: #b60b0b;font-size: 24px; font-weight: bold"
+          >"</span>
+        </p>
+        <p style="font-size: 32px; font-weight: bold; color: #b60b0b">Unfounded Medical Benefits</p>
+        <p>
+          Wildlife such as rhinos and pangolins are poached and traded to countries where people believe they have no proven medicinal value. Pangolin scales and rhino horns are made of keratin,
+          which is the material that makes up fingernails and hair. However, they are used in traditional Chinese medicine to help illness range from lactation difficulties to arthritis.
+        </p>
+        <div style="text-align: center; padding-top: 4em; padding-bottom: 4em; display: flex">
+          <img
+            src="../assets/rhinoHorn.png"
+            style="width: 20vw; flex-grow: 1; padding-left: 4em; padding-right: 4em"
+          />
+          <img
+            src="../assets/pangolin.png"
+            style="width: 20vw; height: 6vw; flex-grow: 1; padding-left: 4em; padding-right: 8em; padding-top: 2em"
+          />
+        </div>
+        <p style="font-size: 32px; font-weight: bold; color: #b60b0b">Symbol of Wealth</p>
+        <p>
+          Endangered wildlife are more vulnerable to be involved in trading. The rarity of wildlife increases its economic value. Animals such as elephants and tigers are hunted and traded in forms of ivory and skin.
+          After being processed, elephant ivories and tiger skins are consumed as luxury decorations and furs as symbols of wealth.
+        </p>
+        <div style="text-align: center; padding-top: 4rem; padding-bottom: 4em;display: flex">
+          <img
+            src="../assets/elephant.png"
+            style="width: 10vw; height: 12vw; flex-grow: 1; padding-left: 4em; padding-right: 12em"
+          />
+          <img
+            src="../assets/tiger.png"
+            style="width: 2vw; height: 14vw; flex-grow: 1; padding-left: 0em; padding-right: 10em"
+          />
+        </div>
+        <p
+          style="font-size: 32px; font-weight: bold; color: #b60b0b"
+        >Law Enforcements and Illegal Trading</p>
+        <p>
+          CITES is a treaty initiated in 1973 to protect endangered plants and animals.
+          By now,
+          <b
+            style="color: #b60b0b;"
+          >183</b> state/ regional economic intergration organizations have entered into the force.
+          Under terms of CITES, Parties are required to submit annual reports documenting imports and exports to the CITES.
+        </p>
+      </div>
+      <CITESParty />
+      <div class="content" style="padding-bottom: 6em">
+        <p>
+          However, illegals trading is still untrackable. In 2019,
+          <b style="color: #b60b0b;">17</b> African elephant tradings were reported to CITES, but it is estimated that
+          <b
+            style="color: #b60b0b;"
+          >20,0000</b> African elephants are killed each year.
+        </p>
+
+        <div>
+          <div style="display: flex; margin-bottom: 4em; margin-top: 4em">
+            <div>
+              <img
+                src="../assets/elephant.png"
+                style="padding-right: 5vw; padding-left: 5vw; width: 20vw"
+              />
+            </div>
+            <div style="padding-top: 4em; padding-bottom: 4em">
+              <p style="font-size: 42px; font-weight: bold; color: #b60b0b;">X 17</p>
+              <p
+                style="font-size: 32px; font-weight: bold; color: #b60b0b; font-style: oblique"
+              >Reported to CITES</p>
+            </div>
+          </div>
+          <div style="display: flex; margin-bottom: 4em; margin-top: 4em">
+            <div class="col">
+              <img
+                src="../assets/elephant.png"
+                style="padding-right: 5vw; padding-left: 5vw;width: 20vw"
+              />
+            </div>
+            <div style="padding-top: 4em; padding-bottom: 4em; ">
+              <p style="font-size: 42px; font-weight: bold; color: #b60b0b;">X 20,000</p>
+              <p
+                style="font-size: 32px; font-weight: bold; color: #b60b0b; font-style: oblique"
+              >Estimately Killed</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -112,11 +195,16 @@ import Cluster from "~/components/Cluster.vue";
 import VirusGroup from "~/assets/virus-grouped.json";
 import Title from "~/components/Title.vue";
 import AnimalDetails from "~/components/AnimalDetails.vue";
-import SummaryExportTerm from "~/components/SummaryExportTerm.vue";
+// import SummaryExportTerm from "~/components/SummaryExportTerm.vue";
 import SummaryExportCountry from "~/components/SummaryExportCountry.vue";
 import SummaryImportCountry from "~/components/SummaryImportCountry.vue";
 import AnimalTradeQuantity from "~/components/AnimalTradeQuantity.vue";
 import TradeWithVirus from "~/components/TradeWithVirus.vue";
+import AllReservoirs from "~/components/AllReservoirs.vue";
+import CITESParty from "~/components/CITESParty.vue";
+import TradingDetails from "~/components/TradingDetails.vue";
+import Elephant from "~/components/Elephant.vue";
+import RiskAssessment from "~/components/RiskAssessment.vue";
 // svg imgs
 import Virus from "~/components/Virus.vue";
 import Tail from "~/components/Tail.vue";
@@ -129,11 +217,16 @@ export default {
     Tail,
     Shadow,
     Money,
-    SummaryExportTerm,
+    // SummaryExportTerm,
     SummaryExportCountry,
     SummaryImportCountry,
     AnimalTradeQuantity,
-    TradeWithVirus
+    TradeWithVirus,
+    AllReservoirs,
+    CITESParty,
+    TradingDetails,
+    Elephant,
+    RiskAssessment
   },
   props: {
     VirusOptions: {
@@ -154,56 +247,53 @@ export default {
     };
   },
   mounted() {
-    document.getElementById("virus-select").addEventListener(
-      "change",
-      function() {
-        var resize = document.getElementById("virus-select");
-        var hidden_opt = document.getElementById("width_tmp_option");
-        hidden_opt.innerHTML = resize.options[resize.selectedIndex].textContent;
-        var hidden_sel = document.getElementById("width_tmp_select");
-        hidden_sel.style.display = "initial";
-        resize.style.width = hidden_sel.clientWidth * 3.5 + "px";
-        hidden_sel.style.display = "none";
-      },
-      false
-    );
-
-    document.getElementById("topButton").addEventListener("click", function() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    });
-
+    // document.getElementById("virus-select").addEventListener(
+    //   "change",
+    //   function() {
+    //     var resize = document.getElementById("virus-select");
+    //     var hidden_opt = document.getElementById("width_tmp_option");
+    //     hidden_opt.innerHTML = resize.options[resize.selectedIndex].textContent;
+    //     var hidden_sel = document.getElementById("width_tmp_select");
+    //     hidden_sel.style.display = "initial";
+    //     resize.style.width = hidden_sel.clientWidth * 3.5 + "px";
+    //     hidden_sel.style.display = "none";
+    //   },
+    //   false
+    // );
+    // document.getElementById("topButton").addEventListener("click", function() {
+    //   document.body.scrollTop = 0;
+    //   document.documentElement.scrollTop = 0;
+    // });
     // document.addEventListener("scroll", this.handleScroll);
-    this.changeVirus();
-    this.handleScroll();
+    // this.changeVirus();
+    // this.handleScroll();
   },
 
   methods: {
-    changeVirus(event) {
-      this.selectedVirusName = this.selected.value;
-      this.selectedVirusDescrip = this.virusData[this.selected.value];
-      this.$emit("changeVirusName", this.selectedVirusName);
-
-      let selectedVirusReservoir = this.VirusGroup[this.selected.value];
-      this.allFamily = [];
-      Object.keys(selectedVirusReservoir).forEach(f => {
-        let selectedVirusReservoirFamily = {};
-        selectedVirusReservoirFamily.familyName = f;
-        let genusInFamily = selectedVirusReservoir[f].genus;
-        selectedVirusReservoirFamily.allGenus = genusInFamily;
-        this.allFamily.push(selectedVirusReservoirFamily);
-      });
-      this.animalSelected = false;
-      // console.log(this.allFamily)
-    },
-    handleScroll() {
-      this.scrolled = window.scrollY > 0;
-    }
+    // changeVirus(event) {
+    //   this.selectedVirusName = this.selected.value;
+    //   this.selectedVirusDescrip = this.virusData[this.selected.value];
+    //   this.$emit("changeVirusName", this.selectedVirusName);
+    //   let selectedVirusReservoir = this.VirusGroup[this.selected.value];
+    //   this.allFamily = [];
+    //   Object.keys(selectedVirusReservoir).forEach(f => {
+    //     let selectedVirusReservoirFamily = {};
+    //     selectedVirusReservoirFamily.familyName = f;
+    //     let genusInFamily = selectedVirusReservoir[f].genus;
+    //     selectedVirusReservoirFamily.allGenus = genusInFamily;
+    //     this.allFamily.push(selectedVirusReservoirFamily);
+    //   });
+    //   this.animalSelected = false;
+    //   // console.log(this.allFamily)
+    // },
+    // handleScroll() {
+    //   this.scrolled = window.scrollY > 0;
+    // }
   },
   computed: {
-    virusData() {
-      return VirusInfo;
-    }
+    // virusData() {
+    //   return VirusInfo;
+    // }
   },
   created() {}
 };
@@ -211,18 +301,20 @@ export default {
 
 <style scoped>
 .main {
-  /* width: 100vw; */
-  /* height: 100; */
-  background-color: #313437;
+  background-color: #131010;
   z-index: 0;
-  /* padding-bottom: 200px; */
+  padding-left: 12em;
+  padding-right: 12em;
+  padding-top: 4em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .selectVirus {
-  margin-left: 250px;
+  /* margin-left: 250px; */
   color: white;
-  padding-right: 560px;
+  /* padding-right: 560px; */
   padding-top: 80px;
+  text-align: center;
 }
 
 h1 {
@@ -233,7 +325,7 @@ h1 {
 
 h1 b {
   font-size: 48px;
-  color: #f73179;
+  color: #b60b0b;
 }
 
 h1 .virus-name {
@@ -242,22 +334,22 @@ h1 .virus-name {
 
 h1 .animal-count {
   font-weight: bold;
-  color: #f73179;
+  color: #b60b0b;
 }
 
 h1 .family-count {
   font-weight: bold;
-  color: #f73179;
+  color: #b60b0b;
 }
 .sub-header {
   font-size: 32px;
   margin-top: 30px;
   font-weight: normal;
-  color: #f73179;
+  color: #b60b0b;
 }
 
 .highlighted {
-  color: #f73179;
+  color: #b60b0b;
   font-weight: normal;
   font-style: oblique;
   font-size: 42px;
@@ -273,10 +365,10 @@ h1 .family-count {
   background: none;
   border-radius: 0;
   border-width: 0 0 2px 0;
-  border-color: #f73179;
+  border-color: #b60b0b;
   font-size: 42px;
   font-weight: bold;
-  color: #f73179;
+  color: #b60b0b;
   padding-bottom: 6px;
   cursor: pointer;
   width: 200px;
@@ -304,7 +396,9 @@ h1 .family-count {
 
 .content {
   margin-top: 50px;
-  width: 800px;
+  padding-left: 6em;
+  padding-right: 6em;
+  /* width: 800px; */
 }
 
 p {
@@ -314,7 +408,18 @@ p {
   line-height: 30px;
   padding-bottom: 20px;
 }
-
+.subheader {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px #b60b0b;
+  font-size: 28px;
+  position: sticky;
+  top: 0;
+  background: #131010;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  z-index: 20;
+}
 .figure-container {
   position: fixed;
   height: 100%;
@@ -342,20 +447,33 @@ a {
 }
 
 .selectedVirus {
-  color: #f73179;
+  color: #b60b0b;
 }
 
 #topButton {
   font-size: 20px;
-  color: #f73179;
+  color: #b60b0b;
   background: none;
   padding-bottom: 6px;
   border: none;
-  border-bottom: 2px solid #f73179;
+  border-bottom: 2px solid #b60b0b;
 }
 
 #topButton:focus {
   outline: 0;
   cursor: pointer;
+}
+
+.detail {
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-top: 4em;
+}
+
+.quote {
+  font-size: 22px;
+  font-style: oblique;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 </style>

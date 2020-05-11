@@ -1,8 +1,5 @@
 <template>
   <div class="main">
-    <!-- <ul>
-      <li v-for="g in tradedGenusWithVirus">Animal Name: {{g.genusName}}, Amount: {{g.amount}}</li>
-    </ul>-->
     <div id="bubbleChart">
       <svg ref="quantityBubbles" id="qantityBubbles" />
     </div>
@@ -10,217 +7,269 @@
 </template>
 
 <script>
-import allTrade2019 from "~/assets/data/allTrade2019.json";
-import VirusData from "~/assets/virus-grouped.json";
-import TradingQuantity from "~/assets/data/allGenusQuantity.json";
-
-import animalName from "~/assets/animalName.json";
 import * as d3 from "d3";
+import allTrade from "~/assets/data/allTrade.json";
+import VirusData from "~/assets/virus-grouped.json";
+import reservoirs from "~/assets/data/reservoirs.json";
 export default {
   name: "TradeWithVirus",
-  props: ["selectedVirus"],
   data() {
     return {
-      animalName: animalName,
-      allTrade: allTrade2019,
-      TradingQuantity: TradingQuantity,
+      allTrade,
       VirusData: VirusData,
-      updatedVirusName: null,
-      updatedVirusData: null,
-      allGenusWithUpdatedVirus: null,
-      tradedGenusWithVirus: null,
-      width: 700,
-      height: 300
+      VirusArray: null,
+      allReservoirs: reservoirs,
+      width: 1000,
+      height: 400
     };
   },
   mounted() {
-    this.updateData();
-    this.updateSelectedVirusData();
     this.parseData();
-    this.findGenusTraded();
+    // this.getAllGenera();
     this.createBubble();
   },
   methods: {
-    updateData() {
-      this.updatedVirusName = this.$props.selectedVirus;
-    },
-    updateSelectedVirusData() {
-      this.updatedVirusData = VirusData[this.updatedVirusName];
-    },
     parseData() {
-      let allGenus = [];
-      let selectedVirusData = this.updatedVirusData;
-      for (let family in selectedVirusData) {
-        selectedVirusData[family].genus.forEach(e => {
-          allGenus.push(e.genusName);
-        });
-      }
-      this.allGenusWithUpdatedVirus = allGenus;
-    },
-    findGenusTraded() {
-      let allTraded = this.allTrade;
-      let allGenusWithThisVirus = this.allGenusWithUpdatedVirus;
-      // console.log(allTraded)
-      let tradedWithVirus = [];
-      allTraded.forEach(e => {
-        let tradedGenus = e.genusName;
-        let tradeAmount =
-          e /
-          allGenusWithThisVirus.forEach(g => {
-            if (tradedGenus === g) {
-              let obj = {};
-
-              obj.genusName = tradedGenus;
-              let tradeDetails = this.TradingQuantity.find(
-                e => e.genus_name === tradedGenus
-              );
-              obj.amount = tradeDetails.Exporter_reported_quantity;
-              if (obj.amount > 0) {
-                tradedWithVirus.push(obj);
-              }
-              console.log(tradedWithVirus);
-            }
+      let allVirus = [];
+      let data = this.VirusData;
+      for (let virus in data) {
+        let obj = {};
+        obj.virusName = virus;
+        let allFamily = data[virus];
+        let allGenus = [];
+        for (let family in allFamily) {
+          let genera = allFamily[family].genus;
+          genera.forEach(e => {
+            allGenus.push(e);
           });
-      });
-      this.tradedGenusWithVirus = tradedWithVirus;
+        }
+        obj.reservoirs = allGenus;
+        allVirus.push(obj);
+      }
+      this.VirusArray = allVirus;
     },
+
     createBubble() {
-      const data = this.tradedGenusWithVirus;
-      const animalData = this.animalName;
-      const scale = d3.scaleLinear().range([20, 60]);
-
-      const div = d3
-        .select("#bubbleChart")
-        .append("div")
-        .attr("class", "tooltip")
-        .attr("width", "500")
-        .style("opacity", 0);
-
-      scale.domain([
-        0,
-        d3.max(data, function(d) {
-          return d.amount;
-        })
-      ]);
-
-      const bubbleContainer = this.$refs.quantityBubbles;
+      const data = this.allTrade;
+      const reservoirdata = this.allReservoirs;
+      const chartContainer = this.$refs.quantityBubbles;
       let containerWidth = this.width;
       let containerHeight = this.height;
 
-      const simulation = d3
-        .forceSimulation()
-        .force("x", d3.forceX(containerWidth / 2).strength(0.2))
-        .force("y", d3.forceY(containerHeight / 2).strength(0.2))
-        .force(
-          "collide",
-          d3.forceCollide(function(d) {
-            return scale(d.amount) + 10;
-          })
-        );
-      //   const first = scale(data[0].amount)
+      const pieChartOuterRadius = 150;
+      const pieChartInnerRadius = 130;
 
-      const bubbleChart = d3
-        .select(bubbleContainer)
+      /* compare trade with reservoirs and non-reservoir */
+
+      let export_reported_total = 0;
+      let import_reported_total = 0;
+      data.forEach(t => {
+        if (t.Exporterreportedquantity.length > 0) {
+          let quant = parseInt(t.Exporterreportedquantity);
+
+          export_reported_total += quant;
+        }
+        if (t.Importerreportedquantity.length > 0) {
+          let quant = parseInt(t.Importerreportedquantity);
+
+          import_reported_total += quant;
+        }
+      });
+
+      console.log(import_reported_total);
+
+      let export_reported_with_anyD = 0;
+
+      data.forEach(t => {
+        let genus = t.Genus;
+        let amount = t.Exporterreportedquantity;
+        reservoirdata.forEach(r => {
+          if (genus === r.genusName) {
+            if (amount.length > 0) {
+              export_reported_with_anyD += parseInt(amount);
+            }
+          }
+        });
+      });
+
+      let import_reported_with_anyD = 0;
+
+      data.forEach(t => {
+        let genus = t.Genus;
+        let amount = t.Importerreportedquantity;
+        reservoirdata.forEach(r => {
+          if (genus === r.genusName) {
+            if (amount.length > 0) {
+              import_reported_with_anyD += parseInt(amount);
+            }
+          }
+        });
+      });
+
+      let exportCompare = {
+        reservoir: export_reported_with_anyD,
+        "non reservoir": export_reported_total - export_reported_with_anyD
+      };
+
+      let importCompare = {
+        reservoir: import_reported_with_anyD,
+        "non reservoir": import_reported_total - import_reported_with_anyD
+      };
+
+      /* Chart */
+      /* Pie Chart Global Variables */
+      const chart = d3
+        .select(chartContainer)
         .attr("width", containerWidth)
         .attr("height", containerHeight)
-
         .attr("transform", `translate(0,0)`);
 
-      const bubbles = bubbleChart
-        .selectAll(".bubble")
-        .data(data)
-        .enter()
-        .append("g");
+      const color = d3
+        .scaleOrdinal()
+        .domain(exportCompare)
+        .range(["#b60b0b", "#A6A3A3"]);
 
-      const circles = bubbles
-        .append("circle")
-        .attr("r", function(d) {
-          return scale(d.amount);
-        })
-        .attr("class", "tradeQuant")
-        .style("fill", "#FF6496")
-        .on("mouseover", function(d) {
-          d3.select(this)
-            .attr("stroke", "white")
-            .attr("stroke-width", "2");
-        let matchedGroup = animalData.find(e => e.genusName === d.genusName);
-        let commonName = matchedGroup.commonName
-        console.log(matchedGroup)
-          div
-            .html(
-              `<h1 style="font-size: 20px; font-weight: normal; color: #f73179">${commonName}</h1><h2 style="color: #929292; font-style: oblique; font-weight: normal; font-size: 16px; padding-top: 10px; padding-bottom: 10px">Genus: ${d.genusName} </h1> <hr style="border-top: 1px solid #f73179"> <p style="padding-top: 16px">Traded: ${d.amount}</p>`
-            )
-            .style("position", "absolute")
-            .style("background", "black")
-            .style("border", "2px #f73179 solid")
-            // .style("border-color", "white")
-            .style("width", "200px")
-            // .style("height", "80px")
-            .style("padding", "12px")
-            .style("opacity", 1)
-            .style("left", d3.event.pageX + 20 + "px")
-            .style("top", d3.event.pageY + "px");
-        })
-        .on("mouseout", function(d) {
-          d3.select(this).attr("stroke", "none");
-          div.style("opacity", 0);
+      const pie = d3.pie().value(function(d) {
+        return d.value;
+      });
+
+      function handlePieMouseOver() {
+        d3.select(this).attr("stroke", "white");
+        let className = d3.select(this).attr("class");
+        let id = d3.select(this).attr("id");
+        let value = d3.select(this).attr("value");
+        d3.select(`text.${className}.function`).text(function(d) {
+          return id;
         });
-
-      //         position: absolute;
-      //   text-align: center;
-      //   left: 200;
-      //   top: 0;
-      //   width: 60px;
-      //   height: 28px;
-      //   padding: 2px;
-      //   font: 12px sans-serif;
-      //   background: lightsteelblue;
-      //   border: 0px;
-      //   border-radius: 8px;
-      //   pointer-events: none;
-
-      simulation.nodes(data).on("tick", ticked);
-
-      function ticked() {
-        circles
-          .attr("cx", function(d) {
-            return d.x;
-          })
-          .attr("cy", function(d) {
-            return d.y;
-          });
+        d3.select(`text.${className}.number`).text(function(d) {
+          return value;
+        });
       }
 
-      function handleMouseOver(d, i) {
-        // d3.select(this)
-        //   .attr("stroke", "white")
-        //   .attr("stroke-width", "2");
-        // tooltip
-        //   .transition()
-        //   .duration(200)
-        //   .style("opacity", 0.9);
-        // tooltip
-        //   .html("tooltip")
-        // //   .style("display", "inline")
-        //   .style("left", d3.select(this).attr("cx") + "px")
-        //   .style("top", d3.select(this).attr("cy") + "px");
-      }
-
-      function handleMouseOut(d, i) {
+      function handlePieMouseOut() {
         d3.select(this).attr("stroke", "none");
-        // tooltip.duration(500).style("opacity", 0);
       }
+
+      /* Pie Chart Import */
+      const import_ready = pie(d3.entries(importCompare));
+
+      const importAll = chart.append("g");
+
+      const importArc = importAll
+        .selectAll(".import")
+        .data(import_ready)
+        .enter()
+        .append("path")
+        .attr("class", "importInfo")
+        .attr("id", function(d) {
+          return d.data.key;
+        })
+        .attr("value", function(d) {
+          return d.data.value;
+        })
+        .attr(
+          "d",
+          d3
+            .arc()
+            .innerRadius(pieChartInnerRadius)
+            .outerRadius(pieChartOuterRadius)
+        )
+        .attr("fill", function(d) {
+          return color(d.data.key);
+        })
+        .attr(
+          "transform",
+          `translate(${pieChartOuterRadius + 100}, ${pieChartOuterRadius + 50})`
+        )
+        .on("mouseover", handlePieMouseOver)
+        .on("mouseout", handlePieMouseOut);
+
+      const importLabelNumber = importAll
+        .append("text")
+        .attr("class", "importInfo number")
+        .text(import_reported_total)
+        .attr("fill", "white")
+        .attr(
+          "transform",
+          `translate(${pieChartOuterRadius + 100}, ${pieChartOuterRadius + 20})`
+        )
+        .attr("text-anchor", "middle")
+        .attr("font-size", "24")
+        .attr("display", "block");
+
+      const importLabel = importAll
+        .append("text")
+        .attr("class", "importInfo function")
+        .text("imported")
+        .attr("fill", "white")
+        .attr(
+          "transform",
+          `translate(${pieChartOuterRadius + 100}, ${pieChartOuterRadius + 60})`
+        )
+        .attr("text-anchor", "middle")
+        .attr("font-size", "20");
+
+      /* Pie Chart Export */
+
+      const export_ready = pie(d3.entries(exportCompare));
+
+      const exportAll = chart.append("g");
+
+      const exportArc = exportAll
+        .selectAll(".export")
+        .data(export_ready)
+        .enter()
+        .append("path")
+        .attr("class", "exportInfo")
+        .attr("id", function(d) {
+          return d.data.key;
+        })
+        .attr("value", function(d) {
+          return d.data.value;
+        })
+        .attr(
+          "d",
+          d3
+            .arc()
+            .innerRadius(pieChartInnerRadius)
+            .outerRadius(pieChartOuterRadius)
+        )
+        .attr("fill", function(d) {
+          return color(d.data.key);
+        })
+        .attr(
+          "transform",
+          `translate(${pieChartOuterRadius + 600}, ${pieChartOuterRadius + 50})`
+        )
+        .on("mouseover", handlePieMouseOver)
+        .on("mouseout", handlePieMouseOut);
+
+      const exportLabelNumber = exportAll
+        .append("text")
+        .attr("class", "exportInfo number")
+        .text(export_reported_total)
+        .attr("fill", "white")
+        .attr(
+          "transform",
+          `translate(${pieChartOuterRadius + 600}, ${pieChartOuterRadius + 20})`
+        )
+        .attr("text-anchor", "middle")
+        .attr("font-size", "24");
+
+      const exportLabel = exportAll
+        .append("text")
+        .attr("class", "exportInfo function")
+        .text("exported")
+        .attr("fill", "white")
+        .attr(
+          "transform",
+          `translate(${pieChartOuterRadius + 600}, ${pieChartOuterRadius + 60})`
+        )
+        .attr("text-anchor", "middle")
+        .attr("font-size", "20");
     }
   },
-  watch: {
-    selectedVirus() {
-      this.updateData();
-      this.updateSelectedVirusData();
-      this.parseData();
-      this.findGenusTraded();
-      this.createBubble();
-    }
-  }
+  watch: {}
 };
 </script>
 <style scoped>
@@ -229,8 +278,9 @@ p {
 }
 
 .main {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div.tooltip {
