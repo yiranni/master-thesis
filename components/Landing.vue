@@ -46,7 +46,10 @@
         >* direct: this genus is the reservoir of selected zoonotic disease; indirect: this genus is not but other genera in the same taxonomic family is the reservoir of selected zoonotic disease.</p>
       </div>
     </div>
-    <AllReservoirs />
+    <div style="align-items:center; justify-content: center; display: flex;">
+       <AllReservoirs />
+    </div>
+   
     <div class="subheader">
       <h2 style>Tradings Included Zoonotic Disease Reservoirs</h2>
     </div>

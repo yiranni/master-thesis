@@ -42,10 +42,10 @@ export default {
   modules: [
   ],
 
-  router: {
-    base: "https://yiranni.github.io/master-thesis/",
-    mode: "hash"
-  },
+  // router: {
+  //   base: "https://yiranni.github.io/master-thesis/",
+  //   mode: "hash"
+  // },
   /*
   ** Build configuration
   */
