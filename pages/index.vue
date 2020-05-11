@@ -1,25 +1,15 @@
 <template>
-  <div class="model">
-    <!-- <Nav /> -->
-    
-    <Explore v-bind:VirusOptions="VirusOptions" />
-
-    <!-- <Info /> -->
+  <div class="main">
+    <Landing v-bind:VirusOptions="VirusOptions"/>
   </div>
 </template>
 
 <script>
 import VirusData from "~/assets/virus-grouped.json";
-// import Nav from "~/components/Nav.vue";
-import Explore from "~/components/Explore.vue";
-
-// import Info from "~/components/Info.vue";
-
+import Landing from "~/components/Landing.vue";
 export default {
   components: {
-    // Nav,
-    Explore,
-
+    Landing
   },
   data() {
     return {
@@ -62,5 +52,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+
 </style>
