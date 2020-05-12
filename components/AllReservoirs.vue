@@ -236,6 +236,8 @@ export default {
         .attr("transform", `translate(945, 36)`);
       bubbleChart;
 
+      d3.selectAll("tspan").style("font-family", "DM Serif Display, serif")
+
       function wrap(text, width) {
         text.each(function() {
           var text = d3.select(this),

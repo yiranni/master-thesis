@@ -267,6 +267,9 @@ export default {
         )
         .attr("text-anchor", "middle")
         .attr("font-size", "20");
+
+
+        d3.selectAll("text").style("font-family", "DM Serif Display, serif")
     }
   },
   watch: {}
