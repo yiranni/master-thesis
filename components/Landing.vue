@@ -121,7 +121,7 @@
           Wildlife such as rhinos and pangolins are poached and traded to countries where people believe they have no proven medicinal value. Pangolin scales and rhino horns are made of keratin,
           which is the material that makes up fingernails and hair. However, they are used in traditional Chinese medicine to help illness range from lactation difficulties to arthritis.
         </p>
-        <div style="text-align: center; padding-top: 4em; padding-bottom: 4em; display: flex">
+        <div style="align-items:center; justify-content: center; display: flex;">
           <img
             src="../assets/rhino.svg"
             style="width: 20vw; flex-grow: 1; padding-left: 4em; padding-right: 4em"
@@ -138,15 +138,19 @@
           Endangered wildlife are more vulnerable to be involved in trading. The rarity of wildlife increases its economic value. Animals such as elephants and tigers are hunted and traded in forms of ivory and skin.
           After being processed, elephant ivories and tiger skins are consumed as luxury decorations and furs as symbols of wealth.
         </p>
-        <div style="text-align: center; padding-top: 4rem; padding-bottom: 4em;display: flex">
+
+        <div style="align-items:center; justify-content: center; display: flex;">
           <img
             src="../assets/elephant.svg"
-            style="width: 10vw; height: 12vw; flex-grow: 1; padding-left: 4em; padding-right: 12em"
+            style="width: 20vw; flex-grow: 1; padding-left: 4em; padding-right: 4em"
           />
           <img
             src="../assets/tiger.svg"
-            style="width: 2vw; height: 14vw; flex-grow: 1; padding-left: 0em; padding-right: 10em"
+            style="width: 12vw; flex-grow: 1; padding-left: 4em; padding-right: 8em; padding-top: 2em"
           />
+        </div>
+        <div style="text-align: center; padding-top: 4em; padding-bottom: 4em; display: flex">
+         
         </div>
         <p
           style="font-size: 32px; font-weight: bold; color: #b60b0b; font-family: DM Serif Display, serif"
@@ -174,7 +178,7 @@
         </p>
 
         <div>
-          <div style="display: flex; margin-bottom: 4em; margin-top: 4em">
+           <div style="align-items:center; justify-content: center; display: flex;">
             <div>
               <img
                 src="../assets/elephant.svg"
