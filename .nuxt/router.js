@@ -16,8 +16,8 @@ Router.prototype.push = function push (location, onComplete = emptyFn, onAbort) 
 Vue.use(Router)
 
 export const routerOptions = {
-  mode: 'history',
-  base: decodeURI('/'),
+  mode: 'hash',
+  base: decodeURI('https://yiranni.github.io/master-thesis/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
