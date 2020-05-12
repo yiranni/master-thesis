@@ -37,7 +37,7 @@
         >
           <img src="../assets/summary.svg" style="width: 40vw" />
         </div>
-<p
+        <p
           style="font-size: 32px; font-weight: bold; color: #b60b0b; font-family: DM Serif Display, serif"
         >Reservoirs of 17 zoonotic diseases</p>
         <p
